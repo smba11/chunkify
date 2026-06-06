@@ -2,6 +2,8 @@
 
 Chunkify is a premium, real-estate-style marketplace for Minecraft world seeds. It is built with Next.js App Router, TypeScript, Tailwind CSS, shadcn-style UI primitives, Framer Motion, and Supabase-ready auth/database/storage wiring.
 
+Live Vercel deployment: https://chunkify-indol.vercel.app
+
 ## Features
 
 - Premium dark marketplace UI for browsing Minecraft seeds

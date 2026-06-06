@@ -15,3 +15,5 @@ pnpm-debug.log*
 .seedestate-dev-*.err.log
 .chunkify-dev-*.log
 .chunkify-dev-*.err.log
+
+.vercel
