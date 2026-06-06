@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 20% 5%;
+  --foreground: 42 38% 92%;
+  --card: 220 18% 8%;
+  --card-foreground: 42 38% 92%;
+  --primary: 40 60% 60%;
+  --primary-foreground: 220 28% 7%;
+  --secondary: 215 16% 13%;
+  --secondary-foreground: 42 38% 92%;
+  --muted: 214 15% 15%;
+  --muted-foreground: 215 12% 66%;
+  --accent: 153 45% 42%;
+  --accent-foreground: 42 38% 92%;
+  --destructive: 350 78% 58%;
+  --destructive-foreground: 42 38% 92%;
+  --border: 215 14% 18%;
+  --input: 215 14% 18%;
+  --ring: 40 60% 60%;
+  --radius: 0.625rem;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #08090b;
+  background:
+    radial-gradient(circle at 14% -8%, rgba(214, 179, 106, 0.16), transparent 32rem),
+    radial-gradient(circle at 82% 2%, rgba(74, 222, 128, 0.1), transparent 28rem),
+    linear-gradient(180deg, #090a0d 0%, #0c0e12 42%, #08090b 100%);
+  color: hsl(var(--foreground));
+  font-feature-settings: "tnum";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(214, 179, 106, 0.24);
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 text-sm text-slate-100 outline-none placeholder:text-slate-600 focus:border-primary/60;
+  }
+
+  .glass-panel {
+    @apply border border-white/10 bg-white/[0.045] shadow-glow backdrop-blur-xl;
+  }
+
+  .estate-grid {
+    background-image:
+      linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+    background-size: 42px 42px;
+  }
+}

@@ -1,0 +1,17 @@
+.env*.local
+.env
+
+node_modules/
+.next/
+out/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+.vercel/
+.seedestate-dev-*.log
+.seedestate-dev-*.err.log
+.chunkify-dev-*.log
+.chunkify-dev-*.err.log
