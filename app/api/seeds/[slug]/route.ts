@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getSeed } from "@/lib/chunkr/seeds";
+import { getSeed } from "@/lib/chunkify/seeds";
 
 export async function GET(_request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

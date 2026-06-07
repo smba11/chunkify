@@ -6,37 +6,58 @@
     "seedNumber": "-82947392",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished plains world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Village",
       "Lake",
-      "Plains"
+      "Plains",
+      "near_spawn"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
     ],
     "structures": [
       "Village",
-      "Stronghold"
+      "Ancient City"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -450,
+      "y": 72,
+      "z": 0
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -450,
         "y": 72,
         "z": 0
       },
       {
         "label": "Village",
+        "type": "village",
         "x": -1100,
         "y": 68,
         "z": -1100
       },
       {
-        "label": "Village",
+        "label": "Plains",
+        "type": "plains",
         "x": 0,
         "y": 72,
         "z": -1600
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 20,
+      "lng": -130
+    },
+    "rating": 4.1,
+    "score": 72,
+    "views": 1200,
+    "createdAt": "2026-01-01T00:00:00.000Z"
   },
   {
     "id": "seed-2",
@@ -45,37 +66,58 @@
     "seedNumber": "86758689",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished cherry grove world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Cherry Grove",
       "Village",
-      "Build"
+      "Build",
+      "cherry_grove"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
     ],
     "structures": [
       "Mansion",
-      "Ancient City"
+      "Trial Chamber"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -353,
+      "y": 73,
+      "z": -131
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -353,
         "y": 73,
         "z": -131
       },
       {
-        "label": "Cherry Grove",
+        "label": "Mansion",
+        "type": "mansion",
         "x": -889,
         "y": 69,
         "z": -927
       },
       {
-        "label": "Mansion",
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
         "x": -307,
         "y": 72,
         "z": -1337
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 33,
+      "lng": -113
+    },
+    "rating": 4.8,
+    "score": 83,
+    "views": 1567,
+    "createdAt": "2026-01-02T00:00:00.000Z"
   },
   {
     "id": "seed-3",
@@ -84,37 +126,58 @@
     "seedNumber": "90569986",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished jungle world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Ancient City",
       "Deep Dark",
-      "Mountains"
+      "Mountains",
+      "ancient_city"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
     ],
     "structures": [
       "Stronghold",
-      "Trial Chamber"
+      "Ruined Portal"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -256,
+      "y": 74,
+      "z": -262
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -256,
         "y": 74,
         "z": -262
       },
       {
-        "label": "Ancient City",
+        "label": "Stronghold",
+        "type": "stronghold",
         "x": -678,
         "y": 70,
         "z": -754
       },
       {
-        "label": "Stronghold",
+        "label": "Jungle",
+        "type": "jungle",
         "x": -614,
-        "y": -38,
+        "y": 72,
         "z": -1074
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 46,
+      "lng": -96
+    },
+    "rating": 4.6,
+    "score": 94,
+    "views": 1934,
+    "createdAt": "2026-01-03T00:00:00.000Z"
   },
   {
     "id": "seed-4",
@@ -123,37 +186,58 @@
     "seedNumber": "-94381283",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished desert world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Island",
       "Survival",
+      "Ocean",
+      "island"
+    ],
+    "biomes": [
+      "Desert",
       "Ocean"
     ],
     "structures": [
       "Ancient City",
-      "Ruined Portal"
+      "Monument"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -159,
+      "y": 75,
+      "z": -393
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -159,
         "y": 75,
         "z": -393
       },
       {
-        "label": "Island",
+        "label": "Ancient City",
+        "type": "ancient_city",
         "x": -467,
-        "y": 71,
+        "y": -38,
         "z": -581
       },
       {
-        "label": "Ancient City",
+        "label": "Desert",
+        "type": "desert",
         "x": -921,
         "y": 72,
         "z": -811
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 59,
+      "lng": -79
+    },
+    "rating": 4.4,
+    "score": 77,
+    "views": 2301,
+    "createdAt": "2026-01-04T00:00:00.000Z"
   },
   {
     "id": "seed-5",
@@ -162,37 +246,58 @@
     "seedNumber": "98192580",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished snow world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Mansion",
       "Taiga",
-      "Forest"
+      "Forest",
+      "woodland_mansion"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
     ],
     "structures": [
       "Trial Chamber",
-      "Village"
+      "Desert Temple"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -62,
+      "y": 76,
+      "z": -524
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -62,
         "y": 76,
         "z": -524
       },
       {
-        "label": "Mansion",
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
         "x": -256,
         "y": 72,
         "z": -408
       },
       {
-        "label": "Trial Chamber",
+        "label": "Snow",
+        "type": "snow",
         "x": -1228,
         "y": 72,
         "z": -548
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 72,
+      "lng": -62
+    },
+    "rating": 4.2,
+    "score": 88,
+    "views": 2668,
+    "createdAt": "2026-01-05T00:00:00.000Z"
   },
   {
     "id": "seed-6",
@@ -201,37 +306,58 @@
     "seedNumber": "102003877",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished ocean world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Stronghold",
       "Village",
-      "Speedrun"
+      "Speedrun",
+      "stronghold"
+    ],
+    "biomes": [
+      "Ocean",
+      "Mushroom"
     ],
     "structures": [
       "Ruined Portal",
-      "Mansion"
+      "Village"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 35,
+      "y": 77,
+      "z": -655
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 35,
         "y": 77,
         "z": -655
       },
       {
-        "label": "Stronghold",
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
         "x": -45,
         "y": 73,
         "z": -235
       },
       {
-        "label": "Ruined Portal",
+        "label": "Ocean",
+        "type": "ocean",
         "x": -1535,
         "y": 72,
         "z": -285
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 30,
+      "lng": -45
+    },
+    "rating": 4.9,
+    "score": 99,
+    "views": 3035,
+    "createdAt": "2026-01-06T00:00:00.000Z"
   },
   {
     "id": "seed-7",
@@ -240,37 +366,58 @@
     "seedNumber": "-105815174",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished taiga world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Desert",
       "Temple",
-      "Coast"
+      "Coast",
+      "desert"
+    ],
+    "biomes": [
+      "Taiga",
+      "Savanna"
     ],
     "structures": [
-      "Village",
-      "Stronghold"
+      "Monument",
+      "Mansion"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 132,
+      "y": 78,
+      "z": -786
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 132,
         "y": 78,
         "z": -786
       },
       {
-        "label": "Desert",
+        "label": "Monument",
+        "type": "monument",
         "x": 166,
         "y": 74,
         "z": -62
       },
       {
-        "label": "Village",
+        "label": "Taiga",
+        "type": "taiga",
         "x": -1842,
         "y": 72,
         "z": -22
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 43,
+      "lng": -28
+    },
+    "rating": 4.7,
+    "score": 82,
+    "views": 3402,
+    "createdAt": "2026-01-07T00:00:00.000Z"
   },
   {
     "id": "seed-8",
@@ -279,37 +426,58 @@
     "seedNumber": "109626471",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished mushroom world with desert temple access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Snow",
       "Village",
-      "Ridge"
+      "Ridge",
+      "snowy"
+    ],
+    "biomes": [
+      "Mushroom",
+      "Mountains"
     ],
     "structures": [
-      "Mansion",
-      "Ancient City"
+      "Desert Temple",
+      "Stronghold"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 229,
+      "y": 79,
+      "z": -17
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 229,
         "y": 79,
         "z": -17
       },
       {
-        "label": "Snow",
+        "label": "Desert Temple",
+        "type": "desert_temple",
         "x": 377,
         "y": 75,
         "z": 111
       },
       {
-        "label": "Mansion",
+        "label": "Mushroom",
+        "type": "mushroom",
         "x": -2149,
         "y": 72,
         "z": 241
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 56,
+      "lng": -11
+    },
+    "rating": 4.5,
+    "score": 93,
+    "views": 3769,
+    "createdAt": "2026-01-08T00:00:00.000Z"
   },
   {
     "id": "seed-9",
@@ -318,37 +486,58 @@
     "seedNumber": "113437768",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished savanna world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Mushroom",
       "Island",
-      "Rare"
+      "Rare",
+      "island"
+    ],
+    "biomes": [
+      "Savanna",
+      "Plains"
     ],
     "structures": [
-      "Stronghold",
-      "Trial Chamber"
+      "Village",
+      "Ancient City"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 326,
+      "y": 80,
+      "z": -148
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 326,
         "y": 80,
         "z": -148
       },
       {
-        "label": "Mushroom",
+        "label": "Village",
+        "type": "village",
         "x": 588,
         "y": 76,
         "z": 284
       },
       {
-        "label": "Stronghold",
+        "label": "Savanna",
+        "type": "savanna",
         "x": -2456,
         "y": 72,
         "z": 504
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 69,
+      "lng": 6
+    },
+    "rating": 4.3,
+    "score": 76,
+    "views": 4136,
+    "createdAt": "2026-01-09T00:00:00.000Z"
   },
   {
     "id": "seed-10",
@@ -357,817 +546,1258 @@
     "seedNumber": "-117249065",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished mountains world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Trial Chamber",
       "Mesa",
-      "Caves"
+      "Caves",
+      "trial_chamber"
+    ],
+    "biomes": [
+      "Mountains",
+      "Cherry Grove"
     ],
     "structures": [
-      "Ancient City",
-      "Ruined Portal"
+      "Mansion",
+      "Trial Chamber"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 423,
+      "y": 81,
+      "z": -279
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 423,
         "y": 81,
         "z": -279
       },
       {
-        "label": "Trial Chamber",
+        "label": "Mansion",
+        "type": "mansion",
         "x": 799,
         "y": 77,
         "z": 457
       },
       {
-        "label": "Ancient City",
+        "label": "Mountains",
+        "type": "mountains",
         "x": -2763,
         "y": 72,
         "z": 767
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 27,
+      "lng": 23
+    },
+    "rating": 4.1,
+    "score": 87,
+    "views": 4503,
+    "createdAt": "2026-01-10T00:00:00.000Z"
   },
   {
     "id": "seed-11",
-    "slug": "mountain-arch-village-11",
-    "name": "Mountain Arch Village 11",
+    "slug": "jungle-cove-village-11",
+    "name": "Jungle Cove Village 11",
     "seedNumber": "121060362",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished plains world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
+      "Jungle",
       "Village",
-      "Lake",
-      "Plains"
+      "River",
+      "jungle"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
     ],
     "structures": [
-      "Village",
-      "Stronghold"
+      "Stronghold",
+      "Ruined Portal"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -380,
+      "y": 82,
+      "z": -410
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -380,
         "y": 82,
         "z": -410
       },
       {
-        "label": "Village",
+        "label": "Stronghold",
+        "type": "stronghold",
         "x": 1010,
         "y": 78,
         "z": 630
       },
       {
-        "label": "Village",
+        "label": "Plains",
+        "type": "plains",
         "x": -3070,
         "y": 72,
         "z": 1030
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 40,
+      "lng": 40
+    },
+    "rating": 4.8,
+    "score": 98,
+    "views": 4870,
+    "createdAt": "2026-01-11T00:00:00.000Z"
   },
   {
     "id": "seed-12",
-    "slug": "cherry-lake-spawn-12",
-    "name": "Cherry Lake Spawn 12",
+    "slug": "ocean-monument-isle-12",
+    "name": "Ocean Monument Isle 12",
     "seedNumber": "124871659",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished cherry grove world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
     "tags": [
+      "Monument",
+      "Ocean",
+      "Island",
+      "ocean"
+    ],
+    "biomes": [
       "Cherry Grove",
-      "Village",
-      "Build"
+      "Desert"
     ],
     "structures": [
-      "Mansion",
-      "Ancient City"
+      "Ancient City",
+      "Monument"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -283,
+      "y": 83,
+      "z": -541
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -283,
         "y": 83,
         "z": -541
       },
       {
-        "label": "Cherry Grove",
+        "label": "Ancient City",
+        "type": "ancient_city",
         "x": -979,
-        "y": 79,
+        "y": -38,
         "z": 803
       },
       {
-        "label": "Mansion",
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
         "x": -177,
         "y": 72,
         "z": 1293
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 53,
+      "lng": 57
+    },
+    "rating": 4.6,
+    "score": 81,
+    "views": 5237,
+    "createdAt": "2026-01-12T00:00:00.000Z"
   },
   {
     "id": "seed-13",
-    "slug": "ancient-city-basin-13",
-    "name": "Ancient City Basin 13",
+    "slug": "plains-river-manor-13",
+    "name": "Plains River Manor 13",
     "seedNumber": "-128682956",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished jungle world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Ancient City",
-      "Deep Dark",
-      "Mountains"
+      "Plains",
+      "Mansion",
+      "River",
+      "plains"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
     ],
     "structures": [
-      "Stronghold",
-      "Trial Chamber"
+      "Trial Chamber",
+      "Desert Temple"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -186,
+      "y": 84,
+      "z": -672
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -186,
         "y": 84,
         "z": -672
       },
       {
-        "label": "Ancient City",
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
         "x": -768,
         "y": 80,
         "z": 976
       },
       {
-        "label": "Stronghold",
+        "label": "Jungle",
+        "type": "jungle",
         "x": -484,
-        "y": -38,
+        "y": 72,
         "z": 1556
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 66,
+      "lng": 74
+    },
+    "rating": 4.4,
+    "score": 92,
+    "views": 5604,
+    "createdAt": "2026-01-13T00:00:00.000Z"
   },
   {
     "id": "seed-14",
-    "slug": "island-cliff-haven-14",
-    "name": "Island Cliff Haven 14",
+    "slug": "frozen-peak-citadel-14",
+    "name": "Frozen Peak Citadel 14",
     "seedNumber": "132494253",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished desert world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Island",
-      "Survival",
+      "Snow",
+      "Mountain",
+      "Ancient City",
+      "mountain"
+    ],
+    "biomes": [
+      "Desert",
       "Ocean"
     ],
     "structures": [
-      "Ancient City",
-      "Ruined Portal"
+      "Ruined Portal",
+      "Village"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -89,
+      "y": 85,
+      "z": -803
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -89,
         "y": 85,
         "z": -803
       },
       {
-        "label": "Island",
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
         "x": -557,
         "y": 81,
         "z": -1051
       },
       {
-        "label": "Ancient City",
+        "label": "Desert",
+        "type": "desert",
         "x": -791,
         "y": 72,
         "z": -1381
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 24,
+      "lng": 91
+    },
+    "rating": 4.2,
+    "score": 75,
+    "views": 5971,
+    "createdAt": "2026-01-14T00:00:00.000Z"
   },
   {
     "id": "seed-15",
-    "slug": "mansion-pine-valley-15",
-    "name": "Mansion Pine Valley 15",
+    "slug": "savanna-portal-ridge-15",
+    "name": "Savanna Portal Ridge 15",
     "seedNumber": "136305550",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished snow world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Mansion",
-      "Taiga",
-      "Forest"
+      "Ruined Portal",
+      "Savanna",
+      "Village",
+      "ruined_portal"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
     ],
     "structures": [
-      "Trial Chamber",
-      "Village"
+      "Monument",
+      "Mansion"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 8,
+      "y": 86,
+      "z": -34
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 8,
         "y": 86,
         "z": -34
       },
       {
-        "label": "Mansion",
+        "label": "Monument",
+        "type": "monument",
         "x": -346,
         "y": 82,
         "z": -878
       },
       {
-        "label": "Trial Chamber",
+        "label": "Snow",
+        "type": "snow",
         "x": -1098,
         "y": 72,
         "z": -1118
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 37,
+      "lng": 108
+    },
+    "rating": 4.9,
+    "score": 86,
+    "views": 6338,
+    "createdAt": "2026-01-15T00:00:00.000Z"
   },
   {
     "id": "seed-16",
-    "slug": "stronghold-meadow-16",
-    "name": "Stronghold Meadow 16",
+    "slug": "mountain-arch-village-16",
+    "name": "Mountain Arch Village 16",
     "seedNumber": "-140116847",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished plains world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Stronghold",
       "Village",
-      "Speedrun"
+      "Lake",
+      "Plains",
+      "near_spawn"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
     ],
     "structures": [
-      "Ruined Portal",
-      "Mansion"
+      "Village",
+      "Ancient City"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 105,
+      "y": 87,
+      "z": -165
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 105,
         "y": 87,
         "z": -165
       },
       {
-        "label": "Stronghold",
+        "label": "Village",
+        "type": "village",
         "x": -135,
         "y": 83,
         "z": -705
       },
       {
-        "label": "Ruined Portal",
+        "label": "Plains",
+        "type": "plains",
         "x": -1405,
         "y": 72,
         "z": -855
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 50,
+      "lng": -115
+    },
+    "rating": 4.7,
+    "score": 97,
+    "views": 6705,
+    "createdAt": "2026-01-16T00:00:00.000Z"
   },
   {
     "id": "seed-17",
-    "slug": "desert-temple-coast-17",
-    "name": "Desert Temple Coast 17",
+    "slug": "cherry-lake-spawn-17",
+    "name": "Cherry Lake Spawn 17",
     "seedNumber": "143928144",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished cherry grove world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Desert",
-      "Temple",
-      "Coast"
+      "Cherry Grove",
+      "Village",
+      "Build",
+      "cherry_grove"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
     ],
     "structures": [
-      "Village",
-      "Stronghold"
+      "Mansion",
+      "Trial Chamber"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 202,
+      "y": 88,
+      "z": -296
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 202,
         "y": 88,
         "z": -296
       },
       {
-        "label": "Desert",
+        "label": "Mansion",
+        "type": "mansion",
         "x": 76,
         "y": 84,
         "z": -532
       },
       {
-        "label": "Village",
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
         "x": -1712,
         "y": 72,
         "z": -592
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 63,
+      "lng": -98
+    },
+    "rating": 4.5,
+    "score": 80,
+    "views": 7072,
+    "createdAt": "2026-01-17T00:00:00.000Z"
   },
   {
     "id": "seed-18",
-    "slug": "snow-ridge-village-18",
-    "name": "Snow Ridge Village 18",
+    "slug": "ancient-city-basin-18",
+    "name": "Ancient City Basin 18",
     "seedNumber": "147739441",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished jungle world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Snow",
-      "Village",
-      "Ridge"
+      "Ancient City",
+      "Deep Dark",
+      "Mountains",
+      "ancient_city"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
     ],
     "structures": [
-      "Mansion",
-      "Ancient City"
+      "Stronghold",
+      "Ruined Portal"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 299,
+      "y": 89,
+      "z": -427
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 299,
         "y": 89,
         "z": -427
       },
       {
-        "label": "Snow",
+        "label": "Stronghold",
+        "type": "stronghold",
         "x": 287,
         "y": 85,
         "z": -359
       },
       {
-        "label": "Mansion",
+        "label": "Jungle",
+        "type": "jungle",
         "x": -2019,
         "y": 72,
         "z": -329
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 21,
+      "lng": -81
+    },
+    "rating": 4.3,
+    "score": 91,
+    "views": 7439,
+    "createdAt": "2026-01-18T00:00:00.000Z"
   },
   {
     "id": "seed-19",
-    "slug": "mushroom-bay-19",
-    "name": "Mushroom Bay 19",
+    "slug": "island-cliff-haven-19",
+    "name": "Island Cliff Haven 19",
     "seedNumber": "-151550738",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished desert world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Mushroom",
       "Island",
-      "Rare"
+      "Survival",
+      "Ocean",
+      "island"
+    ],
+    "biomes": [
+      "Desert",
+      "Ocean"
     ],
     "structures": [
-      "Stronghold",
-      "Trial Chamber"
+      "Ancient City",
+      "Monument"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 396,
+      "y": 72,
+      "z": -558
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 396,
         "y": 72,
         "z": -558
       },
       {
-        "label": "Mushroom",
+        "label": "Ancient City",
+        "type": "ancient_city",
         "x": 498,
-        "y": 86,
+        "y": -38,
         "z": -186
       },
       {
-        "label": "Stronghold",
+        "label": "Desert",
+        "type": "desert",
         "x": -2326,
         "y": 72,
         "z": -66
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 34,
+      "lng": -64
+    },
+    "rating": 4.1,
+    "score": 74,
+    "views": 7806,
+    "createdAt": "2026-01-19T00:00:00.000Z"
   },
   {
     "id": "seed-20",
-    "slug": "trial-chamber-mesa-20",
-    "name": "Trial Chamber Mesa 20",
+    "slug": "mansion-pine-valley-20",
+    "name": "Mansion Pine Valley 20",
     "seedNumber": "155362035",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished snow world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Trial Chamber",
-      "Mesa",
-      "Caves"
+      "Mansion",
+      "Taiga",
+      "Forest",
+      "woodland_mansion"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
     ],
     "structures": [
-      "Ancient City",
-      "Ruined Portal"
+      "Trial Chamber",
+      "Desert Temple"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -407,
+      "y": 73,
+      "z": -689
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -407,
         "y": 73,
         "z": -689
       },
       {
         "label": "Trial Chamber",
+        "type": "trial_chamber",
         "x": 709,
         "y": 87,
         "z": -13
       },
       {
-        "label": "Ancient City",
+        "label": "Snow",
+        "type": "snow",
         "x": -2633,
         "y": 72,
         "z": 197
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 47,
+      "lng": -47
+    },
+    "rating": 4.8,
+    "score": 85,
+    "views": 8173,
+    "createdAt": "2026-01-20T00:00:00.000Z"
   },
   {
     "id": "seed-21",
-    "slug": "mountain-arch-village-21",
-    "name": "Mountain Arch Village 21",
+    "slug": "stronghold-meadow-21",
+    "name": "Stronghold Meadow 21",
     "seedNumber": "159173332",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished ocean world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
+      "Stronghold",
       "Village",
-      "Lake",
-      "Plains"
+      "Speedrun",
+      "stronghold"
+    ],
+    "biomes": [
+      "Ocean",
+      "Mushroom"
     ],
     "structures": [
-      "Village",
-      "Stronghold"
+      "Ruined Portal",
+      "Village"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -310,
+      "y": 74,
+      "z": -820
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -310,
         "y": 74,
         "z": -820
       },
       {
-        "label": "Village",
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
         "x": 920,
         "y": 88,
         "z": 160
       },
       {
-        "label": "Village",
+        "label": "Ocean",
+        "type": "ocean",
         "x": -2940,
         "y": 72,
         "z": 460
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 60,
+      "lng": -30
+    },
+    "rating": 4.6,
+    "score": 96,
+    "views": 8540,
+    "createdAt": "2026-01-21T00:00:00.000Z"
   },
   {
     "id": "seed-22",
-    "slug": "cherry-lake-spawn-22",
-    "name": "Cherry Lake Spawn 22",
+    "slug": "desert-temple-coast-22",
+    "name": "Desert Temple Coast 22",
     "seedNumber": "-162984629",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished taiga world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Cherry Grove",
-      "Village",
-      "Build"
+      "Desert",
+      "Temple",
+      "Coast",
+      "desert"
+    ],
+    "biomes": [
+      "Taiga",
+      "Savanna"
     ],
     "structures": [
-      "Mansion",
-      "Ancient City"
+      "Monument",
+      "Mansion"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -213,
+      "y": 75,
+      "z": -51
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -213,
         "y": 75,
         "z": -51
       },
       {
-        "label": "Cherry Grove",
+        "label": "Monument",
+        "type": "monument",
         "x": -1069,
         "y": 89,
         "z": 333
       },
       {
-        "label": "Mansion",
+        "label": "Taiga",
+        "type": "taiga",
         "x": -47,
         "y": 72,
         "z": 723
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 73,
+      "lng": -13
+    },
+    "rating": 4.4,
+    "score": 79,
+    "views": 8907,
+    "createdAt": "2026-01-22T00:00:00.000Z"
   },
   {
     "id": "seed-23",
-    "slug": "ancient-city-basin-23",
-    "name": "Ancient City Basin 23",
+    "slug": "snow-ridge-village-23",
+    "name": "Snow Ridge Village 23",
     "seedNumber": "166795926",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished mushroom world with desert temple access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Ancient City",
-      "Deep Dark",
+      "Snow",
+      "Village",
+      "Ridge",
+      "snowy"
+    ],
+    "biomes": [
+      "Mushroom",
       "Mountains"
     ],
     "structures": [
-      "Stronghold",
-      "Trial Chamber"
+      "Desert Temple",
+      "Stronghold"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -116,
+      "y": 76,
+      "z": -182
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -116,
         "y": 76,
         "z": -182
       },
       {
-        "label": "Ancient City",
+        "label": "Desert Temple",
+        "type": "desert_temple",
         "x": -858,
         "y": 90,
         "z": 506
       },
       {
-        "label": "Stronghold",
+        "label": "Mushroom",
+        "type": "mushroom",
         "x": -354,
-        "y": -38,
+        "y": 72,
         "z": 986
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 31,
+      "lng": 4
+    },
+    "rating": 4.2,
+    "score": 90,
+    "views": 9274,
+    "createdAt": "2026-01-23T00:00:00.000Z"
   },
   {
     "id": "seed-24",
-    "slug": "island-cliff-haven-24",
-    "name": "Island Cliff Haven 24",
+    "slug": "mushroom-bay-24",
+    "name": "Mushroom Bay 24",
     "seedNumber": "170607223",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished savanna world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
     "tags": [
+      "Mushroom",
       "Island",
-      "Survival",
-      "Ocean"
+      "Rare",
+      "island"
+    ],
+    "biomes": [
+      "Savanna",
+      "Plains"
     ],
     "structures": [
-      "Ancient City",
-      "Ruined Portal"
+      "Village",
+      "Ancient City"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -19,
+      "y": 77,
+      "z": -313
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -19,
         "y": 77,
         "z": -313
       },
       {
-        "label": "Island",
+        "label": "Village",
+        "type": "village",
         "x": -647,
         "y": 91,
         "z": 679
       },
       {
-        "label": "Ancient City",
+        "label": "Savanna",
+        "type": "savanna",
         "x": -661,
         "y": 72,
         "z": 1249
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 44,
+      "lng": 21
+    },
+    "rating": 4.9,
+    "score": 73,
+    "views": 9641,
+    "createdAt": "2026-01-24T00:00:00.000Z"
   },
   {
     "id": "seed-25",
-    "slug": "mansion-pine-valley-25",
-    "name": "Mansion Pine Valley 25",
+    "slug": "trial-chamber-mesa-25",
+    "name": "Trial Chamber Mesa 25",
     "seedNumber": "-174418520",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished mountains world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Mansion",
-      "Taiga",
-      "Forest"
+      "Trial Chamber",
+      "Mesa",
+      "Caves",
+      "trial_chamber"
+    ],
+    "biomes": [
+      "Mountains",
+      "Cherry Grove"
     ],
     "structures": [
-      "Trial Chamber",
-      "Village"
+      "Mansion",
+      "Trial Chamber"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 78,
+      "y": 78,
+      "z": -444
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 78,
         "y": 78,
         "z": -444
       },
       {
         "label": "Mansion",
+        "type": "mansion",
         "x": -436,
         "y": 68,
         "z": 852
       },
       {
-        "label": "Trial Chamber",
+        "label": "Mountains",
+        "type": "mountains",
         "x": -968,
         "y": 72,
         "z": 1512
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 57,
+      "lng": 38
+    },
+    "rating": 4.7,
+    "score": 84,
+    "views": 10008,
+    "createdAt": "2026-01-25T00:00:00.000Z"
   },
   {
     "id": "seed-26",
-    "slug": "stronghold-meadow-26",
-    "name": "Stronghold Meadow 26",
+    "slug": "jungle-cove-village-26",
+    "name": "Jungle Cove Village 26",
     "seedNumber": "178229817",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished plains world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Stronghold",
+      "Jungle",
       "Village",
-      "Speedrun"
+      "River",
+      "jungle"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
     ],
     "structures": [
-      "Ruined Portal",
-      "Mansion"
+      "Stronghold",
+      "Ruined Portal"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 175,
+      "y": 79,
+      "z": -575
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 175,
         "y": 79,
         "z": -575
       },
       {
         "label": "Stronghold",
+        "type": "stronghold",
         "x": -225,
         "y": 69,
         "z": 1025
       },
       {
-        "label": "Ruined Portal",
+        "label": "Plains",
+        "type": "plains",
         "x": -1275,
         "y": 72,
         "z": -1425
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 70,
+      "lng": 55
+    },
+    "rating": 4.5,
+    "score": 95,
+    "views": 10375,
+    "createdAt": "2026-01-26T00:00:00.000Z"
   },
   {
     "id": "seed-27",
-    "slug": "desert-temple-coast-27",
-    "name": "Desert Temple Coast 27",
+    "slug": "ocean-monument-isle-27",
+    "name": "Ocean Monument Isle 27",
     "seedNumber": "182041114",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished cherry grove world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Desert",
-      "Temple",
-      "Coast"
+      "Monument",
+      "Ocean",
+      "Island",
+      "ocean"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
     ],
     "structures": [
-      "Village",
-      "Stronghold"
+      "Ancient City",
+      "Monument"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 272,
+      "y": 80,
+      "z": -706
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 272,
         "y": 80,
         "z": -706
       },
       {
-        "label": "Desert",
+        "label": "Ancient City",
+        "type": "ancient_city",
         "x": -14,
-        "y": 70,
+        "y": -38,
         "z": -1002
       },
       {
-        "label": "Village",
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
         "x": -1582,
         "y": 72,
         "z": -1162
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 28,
+      "lng": 72
+    },
+    "rating": 4.3,
+    "score": 78,
+    "views": 10742,
+    "createdAt": "2026-01-27T00:00:00.000Z"
   },
   {
     "id": "seed-28",
-    "slug": "snow-ridge-village-28",
-    "name": "Snow Ridge Village 28",
+    "slug": "plains-river-manor-28",
+    "name": "Plains River Manor 28",
     "seedNumber": "-185852411",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished jungle world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Snow",
-      "Village",
-      "Ridge"
+      "Plains",
+      "Mansion",
+      "River",
+      "plains"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
     ],
     "structures": [
-      "Mansion",
-      "Ancient City"
+      "Trial Chamber",
+      "Desert Temple"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 369,
+      "y": 81,
+      "z": -837
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 369,
         "y": 81,
         "z": -837
       },
       {
-        "label": "Snow",
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
         "x": 197,
         "y": 71,
         "z": -829
       },
       {
-        "label": "Mansion",
+        "label": "Jungle",
+        "type": "jungle",
         "x": -1889,
         "y": 72,
         "z": -899
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 41,
+      "lng": 89
+    },
+    "rating": 4.1,
+    "score": 89,
+    "views": 11109,
+    "createdAt": "2026-01-28T00:00:00.000Z"
   },
   {
     "id": "seed-29",
-    "slug": "mushroom-bay-29",
-    "name": "Mushroom Bay 29",
+    "slug": "frozen-peak-citadel-29",
+    "name": "Frozen Peak Citadel 29",
     "seedNumber": "189663708",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished desert world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Mushroom",
-      "Island",
-      "Rare"
+      "Snow",
+      "Mountain",
+      "Ancient City",
+      "mountain"
+    ],
+    "biomes": [
+      "Desert",
+      "Ocean"
     ],
     "structures": [
-      "Stronghold",
-      "Trial Chamber"
+      "Ruined Portal",
+      "Village"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -434,
+      "y": 82,
+      "z": -68
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -434,
         "y": 82,
         "z": -68
       },
       {
-        "label": "Mushroom",
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
         "x": 408,
         "y": 72,
         "z": -656
       },
       {
-        "label": "Stronghold",
+        "label": "Desert",
+        "type": "desert",
         "x": -2196,
         "y": 72,
         "z": -636
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 54,
+      "lng": 106
+    },
+    "rating": 4.8,
+    "score": 72,
+    "views": 11476,
+    "createdAt": "2026-01-29T00:00:00.000Z"
   },
   {
     "id": "seed-30",
-    "slug": "trial-chamber-mesa-30",
-    "name": "Trial Chamber Mesa 30",
+    "slug": "savanna-portal-ridge-30",
+    "name": "Savanna Portal Ridge 30",
     "seedNumber": "193475005",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished snow world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Trial Chamber",
-      "Mesa",
-      "Caves"
+      "Ruined Portal",
+      "Savanna",
+      "Village",
+      "ruined_portal"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
     ],
     "structures": [
-      "Ancient City",
-      "Ruined Portal"
+      "Monument",
+      "Mansion"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -337,
+      "y": 83,
+      "z": -199
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -337,
         "y": 83,
         "z": -199
       },
       {
-        "label": "Trial Chamber",
+        "label": "Monument",
+        "type": "monument",
         "x": 619,
         "y": 73,
         "z": -483
       },
       {
-        "label": "Ancient City",
+        "label": "Snow",
+        "type": "snow",
         "x": -2503,
         "y": 72,
         "z": -373
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 67,
+      "lng": -117
+    },
+    "rating": 4.6,
+    "score": 83,
+    "views": 11843,
+    "createdAt": "2026-01-30T00:00:00.000Z"
   },
   {
     "id": "seed-31",
@@ -1176,37 +1806,58 @@
     "seedNumber": "-197286302",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished plains world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Village",
       "Lake",
-      "Plains"
+      "Plains",
+      "near_spawn"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
     ],
     "structures": [
       "Village",
-      "Stronghold"
+      "Ancient City"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -240,
+      "y": 84,
+      "z": -330
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -240,
         "y": 84,
         "z": -330
       },
       {
         "label": "Village",
+        "type": "village",
         "x": 830,
         "y": 74,
         "z": -310
       },
       {
-        "label": "Village",
+        "label": "Plains",
+        "type": "plains",
         "x": -2810,
         "y": 72,
         "z": -110
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 25,
+      "lng": -100
+    },
+    "rating": 4.4,
+    "score": 94,
+    "views": 12210,
+    "createdAt": "2026-01-31T00:00:00.000Z"
   },
   {
     "id": "seed-32",
@@ -1215,37 +1866,58 @@
     "seedNumber": "201097599",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished cherry grove world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Cherry Grove",
       "Village",
-      "Build"
+      "Build",
+      "cherry_grove"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
     ],
     "structures": [
       "Mansion",
-      "Ancient City"
+      "Trial Chamber"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -143,
+      "y": 85,
+      "z": -461
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -143,
         "y": 85,
         "z": -461
       },
       {
-        "label": "Cherry Grove",
+        "label": "Mansion",
+        "type": "mansion",
         "x": 1041,
         "y": 75,
         "z": -137
       },
       {
-        "label": "Mansion",
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
         "x": -3117,
         "y": 72,
         "z": 153
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 38,
+      "lng": -83
+    },
+    "rating": 4.2,
+    "score": 77,
+    "views": 12577,
+    "createdAt": "2026-02-01T00:00:00.000Z"
   },
   {
     "id": "seed-33",
@@ -1254,37 +1926,58 @@
     "seedNumber": "204908896",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished jungle world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Ancient City",
       "Deep Dark",
-      "Mountains"
+      "Mountains",
+      "ancient_city"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
     ],
     "structures": [
       "Stronghold",
-      "Trial Chamber"
+      "Ruined Portal"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -46,
+      "y": 86,
+      "z": -592
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -46,
         "y": 86,
         "z": -592
       },
       {
-        "label": "Ancient City",
+        "label": "Stronghold",
+        "type": "stronghold",
         "x": -948,
         "y": 76,
         "z": 36
       },
       {
-        "label": "Stronghold",
+        "label": "Jungle",
+        "type": "jungle",
         "x": -224,
-        "y": -38,
+        "y": 72,
         "z": 416
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 51,
+      "lng": -66
+    },
+    "rating": 4.9,
+    "score": 88,
+    "views": 12944,
+    "createdAt": "2026-02-02T00:00:00.000Z"
   },
   {
     "id": "seed-34",
@@ -1293,37 +1986,58 @@
     "seedNumber": "-208720193",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished desert world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Island",
       "Survival",
+      "Ocean",
+      "island"
+    ],
+    "biomes": [
+      "Desert",
       "Ocean"
     ],
     "structures": [
       "Ancient City",
-      "Ruined Portal"
+      "Monument"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 51,
+      "y": 87,
+      "z": -723
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 51,
         "y": 87,
         "z": -723
       },
       {
-        "label": "Island",
+        "label": "Ancient City",
+        "type": "ancient_city",
         "x": -737,
-        "y": 77,
+        "y": -38,
         "z": 209
       },
       {
-        "label": "Ancient City",
+        "label": "Desert",
+        "type": "desert",
         "x": -531,
         "y": 72,
         "z": 679
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 64,
+      "lng": -49
+    },
+    "rating": 4.7,
+    "score": 99,
+    "views": 13311,
+    "createdAt": "2026-02-03T00:00:00.000Z"
   },
   {
     "id": "seed-35",
@@ -1332,37 +2046,58 @@
     "seedNumber": "212531490",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished snow world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Mansion",
       "Taiga",
-      "Forest"
+      "Forest",
+      "woodland_mansion"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
     ],
     "structures": [
       "Trial Chamber",
-      "Village"
+      "Desert Temple"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 148,
+      "y": 88,
+      "z": -854
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 148,
         "y": 88,
         "z": -854
       },
       {
-        "label": "Mansion",
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
         "x": -526,
         "y": 78,
         "z": 382
       },
       {
-        "label": "Trial Chamber",
+        "label": "Snow",
+        "type": "snow",
         "x": -838,
         "y": 72,
         "z": 942
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 22,
+      "lng": -32
+    },
+    "rating": 4.5,
+    "score": 82,
+    "views": 13678,
+    "createdAt": "2026-02-04T00:00:00.000Z"
   },
   {
     "id": "seed-36",
@@ -1371,37 +2106,58 @@
     "seedNumber": "216342787",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished ocean world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Stronghold",
       "Village",
-      "Speedrun"
+      "Speedrun",
+      "stronghold"
+    ],
+    "biomes": [
+      "Ocean",
+      "Mushroom"
     ],
     "structures": [
       "Ruined Portal",
-      "Mansion"
+      "Village"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 245,
+      "y": 89,
+      "z": -85
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 245,
         "y": 89,
         "z": -85
       },
       {
-        "label": "Stronghold",
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
         "x": -315,
         "y": 79,
         "z": 555
       },
       {
-        "label": "Ruined Portal",
+        "label": "Ocean",
+        "type": "ocean",
         "x": -1145,
         "y": 72,
         "z": 1205
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 35,
+      "lng": -15
+    },
+    "rating": 4.3,
+    "score": 93,
+    "views": 14045,
+    "createdAt": "2026-02-05T00:00:00.000Z"
   },
   {
     "id": "seed-37",
@@ -1410,37 +2166,58 @@
     "seedNumber": "-220154084",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished taiga world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Desert",
       "Temple",
-      "Coast"
+      "Coast",
+      "desert"
+    ],
+    "biomes": [
+      "Taiga",
+      "Savanna"
     ],
     "structures": [
-      "Village",
-      "Stronghold"
+      "Monument",
+      "Mansion"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 342,
+      "y": 72,
+      "z": -216
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 342,
         "y": 72,
         "z": -216
       },
       {
-        "label": "Desert",
+        "label": "Monument",
+        "type": "monument",
         "x": -104,
         "y": 80,
         "z": 728
       },
       {
-        "label": "Village",
+        "label": "Taiga",
+        "type": "taiga",
         "x": -1452,
         "y": 72,
         "z": 1468
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 48,
+      "lng": 2
+    },
+    "rating": 4.1,
+    "score": 76,
+    "views": 14412,
+    "createdAt": "2026-02-06T00:00:00.000Z"
   },
   {
     "id": "seed-38",
@@ -1449,37 +2226,58 @@
     "seedNumber": "223965381",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished mushroom world with desert temple access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Snow",
       "Village",
-      "Ridge"
+      "Ridge",
+      "snowy"
+    ],
+    "biomes": [
+      "Mushroom",
+      "Mountains"
     ],
     "structures": [
-      "Mansion",
-      "Ancient City"
+      "Desert Temple",
+      "Stronghold"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 439,
+      "y": 73,
+      "z": -347
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 439,
         "y": 73,
         "z": -347
       },
       {
-        "label": "Snow",
+        "label": "Desert Temple",
+        "type": "desert_temple",
         "x": 107,
         "y": 81,
         "z": 901
       },
       {
-        "label": "Mansion",
+        "label": "Mushroom",
+        "type": "mushroom",
         "x": -1759,
         "y": 72,
         "z": -1469
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 61,
+      "lng": 19
+    },
+    "rating": 4.8,
+    "score": 87,
+    "views": 14779,
+    "createdAt": "2026-02-07T00:00:00.000Z"
   },
   {
     "id": "seed-39",
@@ -1488,37 +2286,58 @@
     "seedNumber": "227776678",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished savanna world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Mushroom",
       "Island",
-      "Rare"
+      "Rare",
+      "island"
+    ],
+    "biomes": [
+      "Savanna",
+      "Plains"
     ],
     "structures": [
-      "Stronghold",
-      "Trial Chamber"
+      "Village",
+      "Ancient City"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -364,
+      "y": 74,
+      "z": -478
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -364,
         "y": 74,
         "z": -478
       },
       {
-        "label": "Mushroom",
+        "label": "Village",
+        "type": "village",
         "x": 318,
         "y": 82,
         "z": 1074
       },
       {
-        "label": "Stronghold",
+        "label": "Savanna",
+        "type": "savanna",
         "x": -2066,
         "y": 72,
         "z": -1206
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 74,
+      "lng": 36
+    },
+    "rating": 4.6,
+    "score": 98,
+    "views": 15146,
+    "createdAt": "2026-02-08T00:00:00.000Z"
   },
   {
     "id": "seed-40",
@@ -1527,426 +2346,3657 @@
     "seedNumber": "-231587975",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished mountains world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
     "tags": [
       "Trial Chamber",
       "Mesa",
-      "Caves"
+      "Caves",
+      "trial_chamber"
+    ],
+    "biomes": [
+      "Mountains",
+      "Cherry Grove"
     ],
     "structures": [
-      "Ancient City",
-      "Ruined Portal"
+      "Mansion",
+      "Trial Chamber"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -267,
+      "y": 75,
+      "z": -609
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -267,
         "y": 75,
         "z": -609
       },
       {
-        "label": "Trial Chamber",
+        "label": "Mansion",
+        "type": "mansion",
         "x": 529,
         "y": 83,
         "z": -953
       },
       {
-        "label": "Ancient City",
+        "label": "Mountains",
+        "type": "mountains",
         "x": -2373,
         "y": 72,
         "z": -943
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 32,
+      "lng": 53
+    },
+    "rating": 4.4,
+    "score": 81,
+    "views": 15513,
+    "createdAt": "2026-02-09T00:00:00.000Z"
   },
   {
     "id": "seed-41",
-    "slug": "mountain-arch-village-41",
-    "name": "Mountain Arch Village 41",
+    "slug": "jungle-cove-village-41",
+    "name": "Jungle Cove Village 41",
     "seedNumber": "235399272",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished plains world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
+      "Jungle",
       "Village",
-      "Lake",
-      "Plains"
+      "River",
+      "jungle"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
     ],
     "structures": [
-      "Village",
-      "Stronghold"
+      "Stronghold",
+      "Ruined Portal"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -170,
+      "y": 76,
+      "z": -740
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -170,
         "y": 76,
         "z": -740
       },
       {
-        "label": "Village",
+        "label": "Stronghold",
+        "type": "stronghold",
         "x": 740,
         "y": 84,
         "z": -780
       },
       {
-        "label": "Village",
+        "label": "Plains",
+        "type": "plains",
         "x": -2680,
         "y": 72,
         "z": -680
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 45,
+      "lng": 70
+    },
+    "rating": 4.2,
+    "score": 92,
+    "views": 15880,
+    "createdAt": "2026-02-10T00:00:00.000Z"
   },
   {
     "id": "seed-42",
-    "slug": "cherry-lake-spawn-42",
-    "name": "Cherry Lake Spawn 42",
+    "slug": "ocean-monument-isle-42",
+    "name": "Ocean Monument Isle 42",
     "seedNumber": "239210569",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished cherry grove world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
     "tags": [
+      "Monument",
+      "Ocean",
+      "Island",
+      "ocean"
+    ],
+    "biomes": [
       "Cherry Grove",
-      "Village",
-      "Build"
+      "Desert"
     ],
     "structures": [
-      "Mansion",
-      "Ancient City"
+      "Ancient City",
+      "Monument"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -73,
+      "y": 77,
+      "z": -871
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -73,
         "y": 77,
         "z": -871
       },
       {
-        "label": "Cherry Grove",
+        "label": "Ancient City",
+        "type": "ancient_city",
         "x": 951,
-        "y": 85,
+        "y": -38,
         "z": -607
       },
       {
-        "label": "Mansion",
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
         "x": -2987,
         "y": 72,
         "z": -417
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 58,
+      "lng": 87
+    },
+    "rating": 4.9,
+    "score": 75,
+    "views": 16247,
+    "createdAt": "2026-02-11T00:00:00.000Z"
   },
   {
     "id": "seed-43",
-    "slug": "ancient-city-basin-43",
-    "name": "Ancient City Basin 43",
+    "slug": "plains-river-manor-43",
+    "name": "Plains River Manor 43",
     "seedNumber": "-243021866",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished jungle world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Ancient City",
-      "Deep Dark",
-      "Mountains"
+      "Plains",
+      "Mansion",
+      "River",
+      "plains"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
     ],
     "structures": [
-      "Stronghold",
-      "Trial Chamber"
+      "Trial Chamber",
+      "Desert Temple"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 24,
+      "y": 78,
+      "z": -102
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 24,
         "y": 78,
         "z": -102
       },
       {
-        "label": "Ancient City",
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
         "x": -1038,
         "y": 86,
         "z": -434
       },
       {
-        "label": "Stronghold",
+        "label": "Jungle",
+        "type": "jungle",
         "x": -94,
-        "y": -38,
+        "y": 72,
         "z": -154
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 71,
+      "lng": 104
+    },
+    "rating": 4.7,
+    "score": 86,
+    "views": 16614,
+    "createdAt": "2026-02-12T00:00:00.000Z"
   },
   {
     "id": "seed-44",
-    "slug": "island-cliff-haven-44",
-    "name": "Island Cliff Haven 44",
+    "slug": "frozen-peak-citadel-44",
+    "name": "Frozen Peak Citadel 44",
     "seedNumber": "246833163",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished desert world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Island",
-      "Survival",
+      "Snow",
+      "Mountain",
+      "Ancient City",
+      "mountain"
+    ],
+    "biomes": [
+      "Desert",
       "Ocean"
     ],
     "structures": [
-      "Ancient City",
-      "Ruined Portal"
+      "Ruined Portal",
+      "Village"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 121,
+      "y": 79,
+      "z": -233
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 121,
         "y": 79,
         "z": -233
       },
       {
-        "label": "Island",
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
         "x": -827,
         "y": 87,
         "z": -261
       },
       {
-        "label": "Ancient City",
+        "label": "Desert",
+        "type": "desert",
         "x": -401,
         "y": 72,
         "z": 109
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 29,
+      "lng": -119
+    },
+    "rating": 4.5,
+    "score": 97,
+    "views": 16981,
+    "createdAt": "2026-02-13T00:00:00.000Z"
   },
   {
     "id": "seed-45",
-    "slug": "mansion-pine-valley-45",
-    "name": "Mansion Pine Valley 45",
+    "slug": "savanna-portal-ridge-45",
+    "name": "Savanna Portal Ridge 45",
     "seedNumber": "250644460",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished snow world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Mansion",
-      "Taiga",
-      "Forest"
+      "Ruined Portal",
+      "Savanna",
+      "Village",
+      "ruined_portal"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
     ],
     "structures": [
-      "Trial Chamber",
-      "Village"
+      "Monument",
+      "Mansion"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 218,
+      "y": 80,
+      "z": -364
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 218,
         "y": 80,
         "z": -364
       },
       {
-        "label": "Mansion",
+        "label": "Monument",
+        "type": "monument",
         "x": -616,
         "y": 88,
         "z": -88
       },
       {
-        "label": "Trial Chamber",
+        "label": "Snow",
+        "type": "snow",
         "x": -708,
         "y": 72,
         "z": 372
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 42,
+      "lng": -102
+    },
+    "rating": 4.3,
+    "score": 80,
+    "views": 17348,
+    "createdAt": "2026-02-14T00:00:00.000Z"
   },
   {
     "id": "seed-46",
-    "slug": "stronghold-meadow-46",
-    "name": "Stronghold Meadow 46",
+    "slug": "mountain-arch-village-46",
+    "name": "Mountain Arch Village 46",
     "seedNumber": "-254455757",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished plains world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Stronghold",
       "Village",
-      "Speedrun"
+      "Lake",
+      "Plains",
+      "near_spawn"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
     ],
     "structures": [
-      "Ruined Portal",
-      "Mansion"
+      "Village",
+      "Ancient City"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 315,
+      "y": 81,
+      "z": -495
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 315,
         "y": 81,
         "z": -495
       },
       {
-        "label": "Stronghold",
+        "label": "Village",
+        "type": "village",
         "x": -405,
         "y": 89,
         "z": 85
       },
       {
-        "label": "Ruined Portal",
+        "label": "Plains",
+        "type": "plains",
         "x": -1015,
         "y": 72,
         "z": 635
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 55,
+      "lng": -85
+    },
+    "rating": 4.1,
+    "score": 91,
+    "views": 17715,
+    "createdAt": "2026-02-15T00:00:00.000Z"
   },
   {
     "id": "seed-47",
-    "slug": "desert-temple-coast-47",
-    "name": "Desert Temple Coast 47",
+    "slug": "cherry-lake-spawn-47",
+    "name": "Cherry Lake Spawn 47",
     "seedNumber": "258267054",
     "edition": "Java",
     "version": "1.20.6",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished cherry grove world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Desert",
-      "Temple",
-      "Coast"
+      "Cherry Grove",
+      "Village",
+      "Build",
+      "cherry_grove"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
     ],
     "structures": [
-      "Village",
-      "Stronghold"
+      "Mansion",
+      "Trial Chamber"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": 412,
+      "y": 82,
+      "z": -626
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": 412,
         "y": 82,
         "z": -626
       },
       {
-        "label": "Desert",
+        "label": "Mansion",
+        "type": "mansion",
         "x": -194,
         "y": 90,
         "z": 258
       },
       {
-        "label": "Village",
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
         "x": -1322,
         "y": 72,
         "z": 898
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 68,
+      "lng": -68
+    },
+    "rating": 4.8,
+    "score": 74,
+    "views": 18082,
+    "createdAt": "2026-02-16T00:00:00.000Z"
   },
   {
     "id": "seed-48",
-    "slug": "snow-ridge-village-48",
-    "name": "Snow Ridge Village 48",
+    "slug": "ancient-city-basin-48",
+    "name": "Ancient City Basin 48",
     "seedNumber": "262078351",
     "edition": "Bedrock",
     "version": "1.20.4",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished jungle world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Snow",
-      "Village",
-      "Ridge"
+      "Ancient City",
+      "Deep Dark",
+      "Mountains",
+      "ancient_city"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
     ],
     "structures": [
-      "Mansion",
-      "Ancient City"
+      "Stronghold",
+      "Ruined Portal"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -391,
+      "y": 83,
+      "z": -757
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -391,
         "y": 83,
         "z": -757
       },
       {
-        "label": "Snow",
+        "label": "Stronghold",
+        "type": "stronghold",
         "x": 17,
         "y": 91,
         "z": 431
       },
       {
-        "label": "Mansion",
+        "label": "Jungle",
+        "type": "jungle",
         "x": -1629,
         "y": 72,
         "z": 1161
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 26,
+      "lng": -51
+    },
+    "rating": 4.6,
+    "score": 85,
+    "views": 18449,
+    "createdAt": "2026-02-17T00:00:00.000Z"
   },
   {
     "id": "seed-49",
-    "slug": "mushroom-bay-49",
-    "name": "Mushroom Bay 49",
+    "slug": "island-cliff-haven-49",
+    "name": "Island Cliff Haven 49",
     "seedNumber": "-265889648",
     "edition": "Java",
     "version": "1.21.4",
-    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished desert world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Mushroom",
       "Island",
-      "Rare"
+      "Survival",
+      "Ocean",
+      "island"
+    ],
+    "biomes": [
+      "Desert",
+      "Ocean"
     ],
     "structures": [
-      "Stronghold",
-      "Trial Chamber"
+      "Ancient City",
+      "Monument"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -294,
+      "y": 84,
+      "z": -888
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -294,
         "y": 84,
         "z": -888
       },
       {
-        "label": "Mushroom",
+        "label": "Ancient City",
+        "type": "ancient_city",
         "x": 228,
-        "y": 68,
+        "y": -38,
         "z": 604
       },
       {
-        "label": "Stronghold",
+        "label": "Desert",
+        "type": "desert",
         "x": -1936,
         "y": 72,
         "z": 1424
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 39,
+      "lng": -34
+    },
+    "rating": 4.4,
+    "score": 96,
+    "views": 18816,
+    "createdAt": "2026-02-18T00:00:00.000Z"
   },
   {
     "id": "seed-50",
-    "slug": "trial-chamber-mesa-50",
-    "name": "Trial Chamber Mesa 50",
+    "slug": "mansion-pine-valley-50",
+    "name": "Mansion Pine Valley 50",
     "seedNumber": "269700945",
     "edition": "Bedrock",
     "version": "1.21.1",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "description": "A polished snow world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
     "tags": [
-      "Trial Chamber",
-      "Mesa",
-      "Caves"
+      "Mansion",
+      "Taiga",
+      "Forest",
+      "woodland_mansion"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
     ],
     "structures": [
-      "Ancient City",
-      "Ruined Portal"
+      "Trial Chamber",
+      "Desert Temple"
     ],
-    "coordinates": [
+    "spawnCoordinates": {
+      "x": -197,
+      "y": 85,
+      "z": -119
+    },
+    "highlightCoordinates": [
       {
         "label": "Spawn",
+        "type": "spawn",
         "x": -197,
         "y": 85,
         "z": -119
       },
       {
         "label": "Trial Chamber",
+        "type": "trial_chamber",
         "x": 439,
         "y": 69,
         "z": 777
       },
       {
-        "label": "Ancient City",
+        "label": "Snow",
+        "type": "snow",
         "x": -2243,
         "y": 72,
         "z": -1513
       }
     ],
-    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+    "mapPosition": {
+      "lat": 52,
+      "lng": -17
+    },
+    "rating": 4.2,
+    "score": 79,
+    "views": 19183,
+    "createdAt": "2026-02-19T00:00:00.000Z"
+  },
+  {
+    "id": "seed-51",
+    "slug": "stronghold-meadow-51",
+    "name": "Stronghold Meadow 51",
+    "seedNumber": "273512242",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished ocean world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Stronghold",
+      "Village",
+      "Speedrun",
+      "stronghold"
+    ],
+    "biomes": [
+      "Ocean",
+      "Mushroom"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Village"
+    ],
+    "spawnCoordinates": {
+      "x": -100,
+      "y": 86,
+      "z": -250
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -100,
+        "y": 86,
+        "z": -250
+      },
+      {
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
+        "x": 650,
+        "y": 70,
+        "z": 950
+      },
+      {
+        "label": "Ocean",
+        "type": "ocean",
+        "x": -2550,
+        "y": 72,
+        "z": -1250
+      }
+    ],
+    "mapPosition": {
+      "lat": 65,
+      "lng": 0
+    },
+    "rating": 4.9,
+    "score": 90,
+    "views": 19550,
+    "createdAt": "2026-02-20T00:00:00.000Z"
+  },
+  {
+    "id": "seed-52",
+    "slug": "desert-temple-coast-52",
+    "name": "Desert Temple Coast 52",
+    "seedNumber": "-277323539",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished taiga world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Desert",
+      "Temple",
+      "Coast",
+      "desert"
+    ],
+    "biomes": [
+      "Taiga",
+      "Savanna"
+    ],
+    "structures": [
+      "Monument",
+      "Mansion"
+    ],
+    "spawnCoordinates": {
+      "x": -3,
+      "y": 87,
+      "z": -381
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -3,
+        "y": 87,
+        "z": -381
+      },
+      {
+        "label": "Monument",
+        "type": "monument",
+        "x": 861,
+        "y": 71,
+        "z": -1077
+      },
+      {
+        "label": "Taiga",
+        "type": "taiga",
+        "x": -2857,
+        "y": 72,
+        "z": -987
+      }
+    ],
+    "mapPosition": {
+      "lat": 23,
+      "lng": 17
+    },
+    "rating": 4.7,
+    "score": 73,
+    "views": 19917,
+    "createdAt": "2026-02-21T00:00:00.000Z"
+  },
+  {
+    "id": "seed-53",
+    "slug": "snow-ridge-village-53",
+    "name": "Snow Ridge Village 53",
+    "seedNumber": "281134836",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished mushroom world with desert temple access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Snow",
+      "Village",
+      "Ridge",
+      "snowy"
+    ],
+    "biomes": [
+      "Mushroom",
+      "Mountains"
+    ],
+    "structures": [
+      "Desert Temple",
+      "Stronghold"
+    ],
+    "spawnCoordinates": {
+      "x": 94,
+      "y": 88,
+      "z": -512
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 94,
+        "y": 88,
+        "z": -512
+      },
+      {
+        "label": "Desert Temple",
+        "type": "desert_temple",
+        "x": 1072,
+        "y": 72,
+        "z": -904
+      },
+      {
+        "label": "Mushroom",
+        "type": "mushroom",
+        "x": -3164,
+        "y": 72,
+        "z": -724
+      }
+    ],
+    "mapPosition": {
+      "lat": 36,
+      "lng": 34
+    },
+    "rating": 4.5,
+    "score": 84,
+    "views": 20284,
+    "createdAt": "2026-02-22T00:00:00.000Z"
+  },
+  {
+    "id": "seed-54",
+    "slug": "mushroom-bay-54",
+    "name": "Mushroom Bay 54",
+    "seedNumber": "284946133",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished savanna world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Mushroom",
+      "Island",
+      "Rare",
+      "island"
+    ],
+    "biomes": [
+      "Savanna",
+      "Plains"
+    ],
+    "structures": [
+      "Village",
+      "Ancient City"
+    ],
+    "spawnCoordinates": {
+      "x": 191,
+      "y": 89,
+      "z": -643
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 191,
+        "y": 89,
+        "z": -643
+      },
+      {
+        "label": "Village",
+        "type": "village",
+        "x": -917,
+        "y": 73,
+        "z": -731
+      },
+      {
+        "label": "Savanna",
+        "type": "savanna",
+        "x": -271,
+        "y": 72,
+        "z": -461
+      }
+    ],
+    "mapPosition": {
+      "lat": 49,
+      "lng": 51
+    },
+    "rating": 4.3,
+    "score": 95,
+    "views": 20651,
+    "createdAt": "2026-02-23T00:00:00.000Z"
+  },
+  {
+    "id": "seed-55",
+    "slug": "trial-chamber-mesa-55",
+    "name": "Trial Chamber Mesa 55",
+    "seedNumber": "-288757430",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished mountains world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Trial Chamber",
+      "Mesa",
+      "Caves",
+      "trial_chamber"
+    ],
+    "biomes": [
+      "Mountains",
+      "Cherry Grove"
+    ],
+    "structures": [
+      "Mansion",
+      "Trial Chamber"
+    ],
+    "spawnCoordinates": {
+      "x": 288,
+      "y": 72,
+      "z": -774
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 288,
+        "y": 72,
+        "z": -774
+      },
+      {
+        "label": "Mansion",
+        "type": "mansion",
+        "x": -706,
+        "y": 74,
+        "z": -558
+      },
+      {
+        "label": "Mountains",
+        "type": "mountains",
+        "x": -578,
+        "y": 72,
+        "z": -198
+      }
+    ],
+    "mapPosition": {
+      "lat": 62,
+      "lng": 68
+    },
+    "rating": 4.1,
+    "score": 78,
+    "views": 21018,
+    "createdAt": "2026-02-24T00:00:00.000Z"
+  },
+  {
+    "id": "seed-56",
+    "slug": "jungle-cove-village-56",
+    "name": "Jungle Cove Village 56",
+    "seedNumber": "292568727",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished plains world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Jungle",
+      "Village",
+      "River",
+      "jungle"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
+    ],
+    "structures": [
+      "Stronghold",
+      "Ruined Portal"
+    ],
+    "spawnCoordinates": {
+      "x": 385,
+      "y": 73,
+      "z": -5
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 385,
+        "y": 73,
+        "z": -5
+      },
+      {
+        "label": "Stronghold",
+        "type": "stronghold",
+        "x": -495,
+        "y": 75,
+        "z": -385
+      },
+      {
+        "label": "Plains",
+        "type": "plains",
+        "x": -885,
+        "y": 72,
+        "z": 65
+      }
+    ],
+    "mapPosition": {
+      "lat": 20,
+      "lng": 85
+    },
+    "rating": 4.8,
+    "score": 89,
+    "views": 21385,
+    "createdAt": "2026-02-25T00:00:00.000Z"
+  },
+  {
+    "id": "seed-57",
+    "slug": "ocean-monument-isle-57",
+    "name": "Ocean Monument Isle 57",
+    "seedNumber": "296380024",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished cherry grove world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Monument",
+      "Ocean",
+      "Island",
+      "ocean"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
+    ],
+    "structures": [
+      "Ancient City",
+      "Monument"
+    ],
+    "spawnCoordinates": {
+      "x": -418,
+      "y": 74,
+      "z": -136
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -418,
+        "y": 74,
+        "z": -136
+      },
+      {
+        "label": "Ancient City",
+        "type": "ancient_city",
+        "x": -284,
+        "y": -38,
+        "z": -212
+      },
+      {
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
+        "x": -1192,
+        "y": 72,
+        "z": 328
+      }
+    ],
+    "mapPosition": {
+      "lat": 33,
+      "lng": 102
+    },
+    "rating": 4.6,
+    "score": 72,
+    "views": 21752,
+    "createdAt": "2026-02-26T00:00:00.000Z"
+  },
+  {
+    "id": "seed-58",
+    "slug": "plains-river-manor-58",
+    "name": "Plains River Manor 58",
+    "seedNumber": "-300191321",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished jungle world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Plains",
+      "Mansion",
+      "River",
+      "plains"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Desert Temple"
+    ],
+    "spawnCoordinates": {
+      "x": -321,
+      "y": 75,
+      "z": -267
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -321,
+        "y": 75,
+        "z": -267
+      },
+      {
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
+        "x": -73,
+        "y": 77,
+        "z": -39
+      },
+      {
+        "label": "Jungle",
+        "type": "jungle",
+        "x": -1499,
+        "y": 72,
+        "z": 591
+      }
+    ],
+    "mapPosition": {
+      "lat": 46,
+      "lng": -121
+    },
+    "rating": 4.4,
+    "score": 83,
+    "views": 22119,
+    "createdAt": "2026-02-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-59",
+    "slug": "frozen-peak-citadel-59",
+    "name": "Frozen Peak Citadel 59",
+    "seedNumber": "304002618",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished desert world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Snow",
+      "Mountain",
+      "Ancient City",
+      "mountain"
+    ],
+    "biomes": [
+      "Desert",
+      "Ocean"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Village"
+    ],
+    "spawnCoordinates": {
+      "x": -224,
+      "y": 76,
+      "z": -398
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -224,
+        "y": 76,
+        "z": -398
+      },
+      {
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
+        "x": 138,
+        "y": 78,
+        "z": 134
+      },
+      {
+        "label": "Desert",
+        "type": "desert",
+        "x": -1806,
+        "y": 72,
+        "z": 854
+      }
+    ],
+    "mapPosition": {
+      "lat": 59,
+      "lng": -104
+    },
+    "rating": 4.2,
+    "score": 94,
+    "views": 22486,
+    "createdAt": "2026-02-28T00:00:00.000Z"
+  },
+  {
+    "id": "seed-60",
+    "slug": "savanna-portal-ridge-60",
+    "name": "Savanna Portal Ridge 60",
+    "seedNumber": "307813915",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished snow world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Ruined Portal",
+      "Savanna",
+      "Village",
+      "ruined_portal"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
+    ],
+    "structures": [
+      "Monument",
+      "Mansion"
+    ],
+    "spawnCoordinates": {
+      "x": -127,
+      "y": 77,
+      "z": -529
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -127,
+        "y": 77,
+        "z": -529
+      },
+      {
+        "label": "Monument",
+        "type": "monument",
+        "x": 349,
+        "y": 79,
+        "z": 307
+      },
+      {
+        "label": "Snow",
+        "type": "snow",
+        "x": -2113,
+        "y": 72,
+        "z": 1117
+      }
+    ],
+    "mapPosition": {
+      "lat": 72,
+      "lng": -87
+    },
+    "rating": 4.9,
+    "score": 77,
+    "views": 22853,
+    "createdAt": "2026-03-01T00:00:00.000Z"
+  },
+  {
+    "id": "seed-61",
+    "slug": "mountain-arch-village-61",
+    "name": "Mountain Arch Village 61",
+    "seedNumber": "-311625212",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished plains world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Village",
+      "Lake",
+      "Plains",
+      "near_spawn"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
+    ],
+    "structures": [
+      "Village",
+      "Ancient City"
+    ],
+    "spawnCoordinates": {
+      "x": -30,
+      "y": 78,
+      "z": -660
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -30,
+        "y": 78,
+        "z": -660
+      },
+      {
+        "label": "Village",
+        "type": "village",
+        "x": 560,
+        "y": 80,
+        "z": 480
+      },
+      {
+        "label": "Plains",
+        "type": "plains",
+        "x": -2420,
+        "y": 72,
+        "z": 1380
+      }
+    ],
+    "mapPosition": {
+      "lat": 30,
+      "lng": -70
+    },
+    "rating": 4.7,
+    "score": 88,
+    "views": 23220,
+    "createdAt": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "seed-62",
+    "slug": "cherry-lake-spawn-62",
+    "name": "Cherry Lake Spawn 62",
+    "seedNumber": "315436509",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished cherry grove world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Cherry Grove",
+      "Village",
+      "Build",
+      "cherry_grove"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
+    ],
+    "structures": [
+      "Mansion",
+      "Trial Chamber"
+    ],
+    "spawnCoordinates": {
+      "x": 67,
+      "y": 79,
+      "z": -791
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 67,
+        "y": 79,
+        "z": -791
+      },
+      {
+        "label": "Mansion",
+        "type": "mansion",
+        "x": 771,
+        "y": 81,
+        "z": 653
+      },
+      {
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
+        "x": -2727,
+        "y": 72,
+        "z": -1557
+      }
+    ],
+    "mapPosition": {
+      "lat": 43,
+      "lng": -53
+    },
+    "rating": 4.5,
+    "score": 99,
+    "views": 23587,
+    "createdAt": "2026-03-03T00:00:00.000Z"
+  },
+  {
+    "id": "seed-63",
+    "slug": "ancient-city-basin-63",
+    "name": "Ancient City Basin 63",
+    "seedNumber": "319247806",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished jungle world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Ancient City",
+      "Deep Dark",
+      "Mountains",
+      "ancient_city"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
+    ],
+    "structures": [
+      "Stronghold",
+      "Ruined Portal"
+    ],
+    "spawnCoordinates": {
+      "x": 164,
+      "y": 80,
+      "z": -22
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 164,
+        "y": 80,
+        "z": -22
+      },
+      {
+        "label": "Stronghold",
+        "type": "stronghold",
+        "x": 982,
+        "y": 82,
+        "z": 826
+      },
+      {
+        "label": "Jungle",
+        "type": "jungle",
+        "x": -3034,
+        "y": 72,
+        "z": -1294
+      }
+    ],
+    "mapPosition": {
+      "lat": 56,
+      "lng": -36
+    },
+    "rating": 4.3,
+    "score": 82,
+    "views": 23954,
+    "createdAt": "2026-03-04T00:00:00.000Z"
+  },
+  {
+    "id": "seed-64",
+    "slug": "island-cliff-haven-64",
+    "name": "Island Cliff Haven 64",
+    "seedNumber": "-323059103",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished desert world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Island",
+      "Survival",
+      "Ocean",
+      "island"
+    ],
+    "biomes": [
+      "Desert",
+      "Ocean"
+    ],
+    "structures": [
+      "Ancient City",
+      "Monument"
+    ],
+    "spawnCoordinates": {
+      "x": 261,
+      "y": 81,
+      "z": -153
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 261,
+        "y": 81,
+        "z": -153
+      },
+      {
+        "label": "Ancient City",
+        "type": "ancient_city",
+        "x": -1007,
+        "y": -38,
+        "z": 999
+      },
+      {
+        "label": "Desert",
+        "type": "desert",
+        "x": -141,
+        "y": 72,
+        "z": -1031
+      }
+    ],
+    "mapPosition": {
+      "lat": 69,
+      "lng": -19
+    },
+    "rating": 4.1,
+    "score": 93,
+    "views": 24321,
+    "createdAt": "2026-03-05T00:00:00.000Z"
+  },
+  {
+    "id": "seed-65",
+    "slug": "mansion-pine-valley-65",
+    "name": "Mansion Pine Valley 65",
+    "seedNumber": "326870400",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished snow world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Mansion",
+      "Taiga",
+      "Forest",
+      "woodland_mansion"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Desert Temple"
+    ],
+    "spawnCoordinates": {
+      "x": 358,
+      "y": 82,
+      "z": -284
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 358,
+        "y": 82,
+        "z": -284
+      },
+      {
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
+        "x": -796,
+        "y": 84,
+        "z": -1028
+      },
+      {
+        "label": "Snow",
+        "type": "snow",
+        "x": -448,
+        "y": 72,
+        "z": -768
+      }
+    ],
+    "mapPosition": {
+      "lat": 27,
+      "lng": -2
+    },
+    "rating": 4.8,
+    "score": 76,
+    "views": 24688,
+    "createdAt": "2026-03-06T00:00:00.000Z"
+  },
+  {
+    "id": "seed-66",
+    "slug": "stronghold-meadow-66",
+    "name": "Stronghold Meadow 66",
+    "seedNumber": "330681697",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished ocean world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Stronghold",
+      "Village",
+      "Speedrun",
+      "stronghold"
+    ],
+    "biomes": [
+      "Ocean",
+      "Mushroom"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Village"
+    ],
+    "spawnCoordinates": {
+      "x": -445,
+      "y": 83,
+      "z": -415
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -445,
+        "y": 83,
+        "z": -415
+      },
+      {
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
+        "x": -585,
+        "y": 85,
+        "z": -855
+      },
+      {
+        "label": "Ocean",
+        "type": "ocean",
+        "x": -755,
+        "y": 72,
+        "z": -505
+      }
+    ],
+    "mapPosition": {
+      "lat": 40,
+      "lng": 15
+    },
+    "rating": 4.6,
+    "score": 87,
+    "views": 25055,
+    "createdAt": "2026-03-07T00:00:00.000Z"
+  },
+  {
+    "id": "seed-67",
+    "slug": "desert-temple-coast-67",
+    "name": "Desert Temple Coast 67",
+    "seedNumber": "-334492994",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished taiga world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Desert",
+      "Temple",
+      "Coast",
+      "desert"
+    ],
+    "biomes": [
+      "Taiga",
+      "Savanna"
+    ],
+    "structures": [
+      "Monument",
+      "Mansion"
+    ],
+    "spawnCoordinates": {
+      "x": -348,
+      "y": 84,
+      "z": -546
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -348,
+        "y": 84,
+        "z": -546
+      },
+      {
+        "label": "Monument",
+        "type": "monument",
+        "x": -374,
+        "y": 86,
+        "z": -682
+      },
+      {
+        "label": "Taiga",
+        "type": "taiga",
+        "x": -1062,
+        "y": 72,
+        "z": -242
+      }
+    ],
+    "mapPosition": {
+      "lat": 53,
+      "lng": 32
+    },
+    "rating": 4.4,
+    "score": 98,
+    "views": 25422,
+    "createdAt": "2026-03-08T00:00:00.000Z"
+  },
+  {
+    "id": "seed-68",
+    "slug": "snow-ridge-village-68",
+    "name": "Snow Ridge Village 68",
+    "seedNumber": "338304291",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished mushroom world with desert temple access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Snow",
+      "Village",
+      "Ridge",
+      "snowy"
+    ],
+    "biomes": [
+      "Mushroom",
+      "Mountains"
+    ],
+    "structures": [
+      "Desert Temple",
+      "Stronghold"
+    ],
+    "spawnCoordinates": {
+      "x": -251,
+      "y": 85,
+      "z": -677
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -251,
+        "y": 85,
+        "z": -677
+      },
+      {
+        "label": "Desert Temple",
+        "type": "desert_temple",
+        "x": -163,
+        "y": 87,
+        "z": -509
+      },
+      {
+        "label": "Mushroom",
+        "type": "mushroom",
+        "x": -1369,
+        "y": 72,
+        "z": 21
+      }
+    ],
+    "mapPosition": {
+      "lat": 66,
+      "lng": 49
+    },
+    "rating": 4.2,
+    "score": 81,
+    "views": 25789,
+    "createdAt": "2026-03-09T00:00:00.000Z"
+  },
+  {
+    "id": "seed-69",
+    "slug": "mushroom-bay-69",
+    "name": "Mushroom Bay 69",
+    "seedNumber": "342115588",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished savanna world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Mushroom",
+      "Island",
+      "Rare",
+      "island"
+    ],
+    "biomes": [
+      "Savanna",
+      "Plains"
+    ],
+    "structures": [
+      "Village",
+      "Ancient City"
+    ],
+    "spawnCoordinates": {
+      "x": -154,
+      "y": 86,
+      "z": -808
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -154,
+        "y": 86,
+        "z": -808
+      },
+      {
+        "label": "Village",
+        "type": "village",
+        "x": 48,
+        "y": 88,
+        "z": -336
+      },
+      {
+        "label": "Savanna",
+        "type": "savanna",
+        "x": -1676,
+        "y": 72,
+        "z": 284
+      }
+    ],
+    "mapPosition": {
+      "lat": 24,
+      "lng": 66
+    },
+    "rating": 4.9,
+    "score": 92,
+    "views": 26156,
+    "createdAt": "2026-03-10T00:00:00.000Z"
+  },
+  {
+    "id": "seed-70",
+    "slug": "trial-chamber-mesa-70",
+    "name": "Trial Chamber Mesa 70",
+    "seedNumber": "-345926885",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished mountains world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Trial Chamber",
+      "Mesa",
+      "Caves",
+      "trial_chamber"
+    ],
+    "biomes": [
+      "Mountains",
+      "Cherry Grove"
+    ],
+    "structures": [
+      "Mansion",
+      "Trial Chamber"
+    ],
+    "spawnCoordinates": {
+      "x": -57,
+      "y": 87,
+      "z": -39
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -57,
+        "y": 87,
+        "z": -39
+      },
+      {
+        "label": "Mansion",
+        "type": "mansion",
+        "x": 259,
+        "y": 89,
+        "z": -163
+      },
+      {
+        "label": "Mountains",
+        "type": "mountains",
+        "x": -1983,
+        "y": 72,
+        "z": 547
+      }
+    ],
+    "mapPosition": {
+      "lat": 37,
+      "lng": 83
+    },
+    "rating": 4.7,
+    "score": 75,
+    "views": 26523,
+    "createdAt": "2026-03-11T00:00:00.000Z"
+  },
+  {
+    "id": "seed-71",
+    "slug": "jungle-cove-village-71",
+    "name": "Jungle Cove Village 71",
+    "seedNumber": "349738182",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished plains world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Jungle",
+      "Village",
+      "River",
+      "jungle"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
+    ],
+    "structures": [
+      "Stronghold",
+      "Ruined Portal"
+    ],
+    "spawnCoordinates": {
+      "x": 40,
+      "y": 88,
+      "z": -170
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 40,
+        "y": 88,
+        "z": -170
+      },
+      {
+        "label": "Stronghold",
+        "type": "stronghold",
+        "x": 470,
+        "y": 90,
+        "z": 10
+      },
+      {
+        "label": "Plains",
+        "type": "plains",
+        "x": -2290,
+        "y": 72,
+        "z": 810
+      }
+    ],
+    "mapPosition": {
+      "lat": 50,
+      "lng": 100
+    },
+    "rating": 4.5,
+    "score": 86,
+    "views": 26890,
+    "createdAt": "2026-03-12T00:00:00.000Z"
+  },
+  {
+    "id": "seed-72",
+    "slug": "ocean-monument-isle-72",
+    "name": "Ocean Monument Isle 72",
+    "seedNumber": "353549479",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished cherry grove world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Monument",
+      "Ocean",
+      "Island",
+      "ocean"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
+    ],
+    "structures": [
+      "Ancient City",
+      "Monument"
+    ],
+    "spawnCoordinates": {
+      "x": 137,
+      "y": 89,
+      "z": -301
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 137,
+        "y": 89,
+        "z": -301
+      },
+      {
+        "label": "Ancient City",
+        "type": "ancient_city",
+        "x": 681,
+        "y": -38,
+        "z": 183
+      },
+      {
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
+        "x": -2597,
+        "y": 72,
+        "z": 1073
+      }
+    ],
+    "mapPosition": {
+      "lat": 63,
+      "lng": -123
+    },
+    "rating": 4.3,
+    "score": 97,
+    "views": 27257,
+    "createdAt": "2026-03-13T00:00:00.000Z"
+  },
+  {
+    "id": "seed-73",
+    "slug": "plains-river-manor-73",
+    "name": "Plains River Manor 73",
+    "seedNumber": "-357360776",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished jungle world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Plains",
+      "Mansion",
+      "River",
+      "plains"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Desert Temple"
+    ],
+    "spawnCoordinates": {
+      "x": 234,
+      "y": 72,
+      "z": -432
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 234,
+        "y": 72,
+        "z": -432
+      },
+      {
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
+        "x": 892,
+        "y": 68,
+        "z": 356
+      },
+      {
+        "label": "Jungle",
+        "type": "jungle",
+        "x": -2904,
+        "y": 72,
+        "z": 1336
+      }
+    ],
+    "mapPosition": {
+      "lat": 21,
+      "lng": -106
+    },
+    "rating": 4.1,
+    "score": 80,
+    "views": 27624,
+    "createdAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "id": "seed-74",
+    "slug": "frozen-peak-citadel-74",
+    "name": "Frozen Peak Citadel 74",
+    "seedNumber": "361172073",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished desert world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Snow",
+      "Mountain",
+      "Ancient City",
+      "mountain"
+    ],
+    "biomes": [
+      "Desert",
+      "Ocean"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Village"
+    ],
+    "spawnCoordinates": {
+      "x": 331,
+      "y": 73,
+      "z": -563
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 331,
+        "y": 73,
+        "z": -563
+      },
+      {
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
+        "x": -1097,
+        "y": 69,
+        "z": 529
+      },
+      {
+        "label": "Desert",
+        "type": "desert",
+        "x": -11,
+        "y": 72,
+        "z": 1599
+      }
+    ],
+    "mapPosition": {
+      "lat": 34,
+      "lng": -89
+    },
+    "rating": 4.8,
+    "score": 91,
+    "views": 27991,
+    "createdAt": "2026-03-15T00:00:00.000Z"
+  },
+  {
+    "id": "seed-75",
+    "slug": "savanna-portal-ridge-75",
+    "name": "Savanna Portal Ridge 75",
+    "seedNumber": "364983370",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished snow world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Ruined Portal",
+      "Savanna",
+      "Village",
+      "ruined_portal"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
+    ],
+    "structures": [
+      "Monument",
+      "Mansion"
+    ],
+    "spawnCoordinates": {
+      "x": 428,
+      "y": 74,
+      "z": -694
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 428,
+        "y": 74,
+        "z": -694
+      },
+      {
+        "label": "Monument",
+        "type": "monument",
+        "x": -886,
+        "y": 70,
+        "z": 702
+      },
+      {
+        "label": "Snow",
+        "type": "snow",
+        "x": -318,
+        "y": 72,
+        "z": -1338
+      }
+    ],
+    "mapPosition": {
+      "lat": 47,
+      "lng": -72
+    },
+    "rating": 4.6,
+    "score": 74,
+    "views": 28358,
+    "createdAt": "2026-03-16T00:00:00.000Z"
+  },
+  {
+    "id": "seed-76",
+    "slug": "mountain-arch-village-76",
+    "name": "Mountain Arch Village 76",
+    "seedNumber": "-368794667",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished plains world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Village",
+      "Lake",
+      "Plains",
+      "near_spawn"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
+    ],
+    "structures": [
+      "Village",
+      "Ancient City"
+    ],
+    "spawnCoordinates": {
+      "x": -375,
+      "y": 75,
+      "z": -825
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -375,
+        "y": 75,
+        "z": -825
+      },
+      {
+        "label": "Village",
+        "type": "village",
+        "x": -675,
+        "y": 71,
+        "z": 875
+      },
+      {
+        "label": "Plains",
+        "type": "plains",
+        "x": -625,
+        "y": 72,
+        "z": -1075
+      }
+    ],
+    "mapPosition": {
+      "lat": 60,
+      "lng": -55
+    },
+    "rating": 4.4,
+    "score": 85,
+    "views": 28725,
+    "createdAt": "2026-03-17T00:00:00.000Z"
+  },
+  {
+    "id": "seed-77",
+    "slug": "cherry-lake-spawn-77",
+    "name": "Cherry Lake Spawn 77",
+    "seedNumber": "372605964",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished cherry grove world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Cherry Grove",
+      "Village",
+      "Build",
+      "cherry_grove"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
+    ],
+    "structures": [
+      "Mansion",
+      "Trial Chamber"
+    ],
+    "spawnCoordinates": {
+      "x": -278,
+      "y": 76,
+      "z": -56
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -278,
+        "y": 76,
+        "z": -56
+      },
+      {
+        "label": "Mansion",
+        "type": "mansion",
+        "x": -464,
+        "y": 72,
+        "z": 1048
+      },
+      {
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
+        "x": -932,
+        "y": 72,
+        "z": -812
+      }
+    ],
+    "mapPosition": {
+      "lat": 73,
+      "lng": -38
+    },
+    "rating": 4.2,
+    "score": 96,
+    "views": 29092,
+    "createdAt": "2026-03-18T00:00:00.000Z"
+  },
+  {
+    "id": "seed-78",
+    "slug": "ancient-city-basin-78",
+    "name": "Ancient City Basin 78",
+    "seedNumber": "376417261",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished jungle world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Ancient City",
+      "Deep Dark",
+      "Mountains",
+      "ancient_city"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
+    ],
+    "structures": [
+      "Stronghold",
+      "Ruined Portal"
+    ],
+    "spawnCoordinates": {
+      "x": -181,
+      "y": 77,
+      "z": -187
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -181,
+        "y": 77,
+        "z": -187
+      },
+      {
+        "label": "Stronghold",
+        "type": "stronghold",
+        "x": -253,
+        "y": 73,
+        "z": -979
+      },
+      {
+        "label": "Jungle",
+        "type": "jungle",
+        "x": -1239,
+        "y": 72,
+        "z": -549
+      }
+    ],
+    "mapPosition": {
+      "lat": 31,
+      "lng": -21
+    },
+    "rating": 4.9,
+    "score": 79,
+    "views": 29459,
+    "createdAt": "2026-03-19T00:00:00.000Z"
+  },
+  {
+    "id": "seed-79",
+    "slug": "island-cliff-haven-79",
+    "name": "Island Cliff Haven 79",
+    "seedNumber": "-380228558",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished desert world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Island",
+      "Survival",
+      "Ocean",
+      "island"
+    ],
+    "biomes": [
+      "Desert",
+      "Ocean"
+    ],
+    "structures": [
+      "Ancient City",
+      "Monument"
+    ],
+    "spawnCoordinates": {
+      "x": -84,
+      "y": 78,
+      "z": -318
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -84,
+        "y": 78,
+        "z": -318
+      },
+      {
+        "label": "Ancient City",
+        "type": "ancient_city",
+        "x": -42,
+        "y": -38,
+        "z": -806
+      },
+      {
+        "label": "Desert",
+        "type": "desert",
+        "x": -1546,
+        "y": 72,
+        "z": -286
+      }
+    ],
+    "mapPosition": {
+      "lat": 44,
+      "lng": -4
+    },
+    "rating": 4.7,
+    "score": 90,
+    "views": 29826,
+    "createdAt": "2026-03-20T00:00:00.000Z"
+  },
+  {
+    "id": "seed-80",
+    "slug": "mansion-pine-valley-80",
+    "name": "Mansion Pine Valley 80",
+    "seedNumber": "384039855",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished snow world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Mansion",
+      "Taiga",
+      "Forest",
+      "woodland_mansion"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Desert Temple"
+    ],
+    "spawnCoordinates": {
+      "x": 13,
+      "y": 79,
+      "z": -449
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 13,
+        "y": 79,
+        "z": -449
+      },
+      {
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
+        "x": 169,
+        "y": 75,
+        "z": -633
+      },
+      {
+        "label": "Snow",
+        "type": "snow",
+        "x": -1853,
+        "y": 72,
+        "z": -23
+      }
+    ],
+    "mapPosition": {
+      "lat": 57,
+      "lng": 13
+    },
+    "rating": 4.5,
+    "score": 73,
+    "views": 30193,
+    "createdAt": "2026-03-21T00:00:00.000Z"
+  },
+  {
+    "id": "seed-81",
+    "slug": "stronghold-meadow-81",
+    "name": "Stronghold Meadow 81",
+    "seedNumber": "387851152",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished ocean world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Stronghold",
+      "Village",
+      "Speedrun",
+      "stronghold"
+    ],
+    "biomes": [
+      "Ocean",
+      "Mushroom"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Village"
+    ],
+    "spawnCoordinates": {
+      "x": 110,
+      "y": 80,
+      "z": -580
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 110,
+        "y": 80,
+        "z": -580
+      },
+      {
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
+        "x": 380,
+        "y": 76,
+        "z": -460
+      },
+      {
+        "label": "Ocean",
+        "type": "ocean",
+        "x": -2160,
+        "y": 72,
+        "z": 240
+      }
+    ],
+    "mapPosition": {
+      "lat": 70,
+      "lng": 30
+    },
+    "rating": 4.3,
+    "score": 84,
+    "views": 30560,
+    "createdAt": "2026-03-22T00:00:00.000Z"
+  },
+  {
+    "id": "seed-82",
+    "slug": "desert-temple-coast-82",
+    "name": "Desert Temple Coast 82",
+    "seedNumber": "-391662449",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished taiga world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Desert",
+      "Temple",
+      "Coast",
+      "desert"
+    ],
+    "biomes": [
+      "Taiga",
+      "Savanna"
+    ],
+    "structures": [
+      "Monument",
+      "Mansion"
+    ],
+    "spawnCoordinates": {
+      "x": 207,
+      "y": 81,
+      "z": -711
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 207,
+        "y": 81,
+        "z": -711
+      },
+      {
+        "label": "Monument",
+        "type": "monument",
+        "x": 591,
+        "y": 77,
+        "z": -287
+      },
+      {
+        "label": "Taiga",
+        "type": "taiga",
+        "x": -2467,
+        "y": 72,
+        "z": 503
+      }
+    ],
+    "mapPosition": {
+      "lat": 28,
+      "lng": 47
+    },
+    "rating": 4.1,
+    "score": 95,
+    "views": 30927,
+    "createdAt": "2026-03-23T00:00:00.000Z"
+  },
+  {
+    "id": "seed-83",
+    "slug": "snow-ridge-village-83",
+    "name": "Snow Ridge Village 83",
+    "seedNumber": "395473746",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished mushroom world with desert temple access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Snow",
+      "Village",
+      "Ridge",
+      "snowy"
+    ],
+    "biomes": [
+      "Mushroom",
+      "Mountains"
+    ],
+    "structures": [
+      "Desert Temple",
+      "Stronghold"
+    ],
+    "spawnCoordinates": {
+      "x": 304,
+      "y": 82,
+      "z": -842
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 304,
+        "y": 82,
+        "z": -842
+      },
+      {
+        "label": "Desert Temple",
+        "type": "desert_temple",
+        "x": 802,
+        "y": 78,
+        "z": -114
+      },
+      {
+        "label": "Mushroom",
+        "type": "mushroom",
+        "x": -2774,
+        "y": 72,
+        "z": 766
+      }
+    ],
+    "mapPosition": {
+      "lat": 41,
+      "lng": 64
+    },
+    "rating": 4.8,
+    "score": 78,
+    "views": 31294,
+    "createdAt": "2026-03-24T00:00:00.000Z"
+  },
+  {
+    "id": "seed-84",
+    "slug": "mushroom-bay-84",
+    "name": "Mushroom Bay 84",
+    "seedNumber": "399285043",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished savanna world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Mushroom",
+      "Island",
+      "Rare",
+      "island"
+    ],
+    "biomes": [
+      "Savanna",
+      "Plains"
+    ],
+    "structures": [
+      "Village",
+      "Ancient City"
+    ],
+    "spawnCoordinates": {
+      "x": 401,
+      "y": 83,
+      "z": -73
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 401,
+        "y": 83,
+        "z": -73
+      },
+      {
+        "label": "Village",
+        "type": "village",
+        "x": 1013,
+        "y": 79,
+        "z": 59
+      },
+      {
+        "label": "Savanna",
+        "type": "savanna",
+        "x": -3081,
+        "y": 72,
+        "z": 1029
+      }
+    ],
+    "mapPosition": {
+      "lat": 54,
+      "lng": 81
+    },
+    "rating": 4.6,
+    "score": 89,
+    "views": 31661,
+    "createdAt": "2026-03-25T00:00:00.000Z"
+  },
+  {
+    "id": "seed-85",
+    "slug": "trial-chamber-mesa-85",
+    "name": "Trial Chamber Mesa 85",
+    "seedNumber": "-403096340",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished mountains world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Trial Chamber",
+      "Mesa",
+      "Caves",
+      "trial_chamber"
+    ],
+    "biomes": [
+      "Mountains",
+      "Cherry Grove"
+    ],
+    "structures": [
+      "Mansion",
+      "Trial Chamber"
+    ],
+    "spawnCoordinates": {
+      "x": -402,
+      "y": 84,
+      "z": -204
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -402,
+        "y": 84,
+        "z": -204
+      },
+      {
+        "label": "Mansion",
+        "type": "mansion",
+        "x": -976,
+        "y": 80,
+        "z": 232
+      },
+      {
+        "label": "Mountains",
+        "type": "mountains",
+        "x": -188,
+        "y": 72,
+        "z": 1292
+      }
+    ],
+    "mapPosition": {
+      "lat": 67,
+      "lng": 98
+    },
+    "rating": 4.4,
+    "score": 72,
+    "views": 32028,
+    "createdAt": "2026-03-26T00:00:00.000Z"
+  },
+  {
+    "id": "seed-86",
+    "slug": "jungle-cove-village-86",
+    "name": "Jungle Cove Village 86",
+    "seedNumber": "406907637",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished plains world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Jungle",
+      "Village",
+      "River",
+      "jungle"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
+    ],
+    "structures": [
+      "Stronghold",
+      "Ruined Portal"
+    ],
+    "spawnCoordinates": {
+      "x": -305,
+      "y": 85,
+      "z": -335
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -305,
+        "y": 85,
+        "z": -335
+      },
+      {
+        "label": "Stronghold",
+        "type": "stronghold",
+        "x": -765,
+        "y": 81,
+        "z": 405
+      },
+      {
+        "label": "Plains",
+        "type": "plains",
+        "x": -495,
+        "y": 72,
+        "z": 1555
+      }
+    ],
+    "mapPosition": {
+      "lat": 25,
+      "lng": -125
+    },
+    "rating": 4.2,
+    "score": 83,
+    "views": 32395,
+    "createdAt": "2026-03-27T00:00:00.000Z"
+  },
+  {
+    "id": "seed-87",
+    "slug": "ocean-monument-isle-87",
+    "name": "Ocean Monument Isle 87",
+    "seedNumber": "410718934",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished cherry grove world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Monument",
+      "Ocean",
+      "Island",
+      "ocean"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
+    ],
+    "structures": [
+      "Ancient City",
+      "Monument"
+    ],
+    "spawnCoordinates": {
+      "x": -208,
+      "y": 86,
+      "z": -466
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -208,
+        "y": 86,
+        "z": -466
+      },
+      {
+        "label": "Ancient City",
+        "type": "ancient_city",
+        "x": -554,
+        "y": -38,
+        "z": 578
+      },
+      {
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
+        "x": -802,
+        "y": 72,
+        "z": -1382
+      }
+    ],
+    "mapPosition": {
+      "lat": 38,
+      "lng": -108
+    },
+    "rating": 4.9,
+    "score": 94,
+    "views": 32762,
+    "createdAt": "2026-03-28T00:00:00.000Z"
+  },
+  {
+    "id": "seed-88",
+    "slug": "plains-river-manor-88",
+    "name": "Plains River Manor 88",
+    "seedNumber": "-414530231",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished jungle world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Plains",
+      "Mansion",
+      "River",
+      "plains"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Desert Temple"
+    ],
+    "spawnCoordinates": {
+      "x": -111,
+      "y": 87,
+      "z": -597
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -111,
+        "y": 87,
+        "z": -597
+      },
+      {
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
+        "x": -343,
+        "y": 83,
+        "z": 751
+      },
+      {
+        "label": "Jungle",
+        "type": "jungle",
+        "x": -1109,
+        "y": 72,
+        "z": -1119
+      }
+    ],
+    "mapPosition": {
+      "lat": 51,
+      "lng": -91
+    },
+    "rating": 4.7,
+    "score": 77,
+    "views": 33129,
+    "createdAt": "2026-03-29T00:00:00.000Z"
+  },
+  {
+    "id": "seed-89",
+    "slug": "frozen-peak-citadel-89",
+    "name": "Frozen Peak Citadel 89",
+    "seedNumber": "418341528",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished desert world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Snow",
+      "Mountain",
+      "Ancient City",
+      "mountain"
+    ],
+    "biomes": [
+      "Desert",
+      "Ocean"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Village"
+    ],
+    "spawnCoordinates": {
+      "x": -14,
+      "y": 88,
+      "z": -728
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -14,
+        "y": 88,
+        "z": -728
+      },
+      {
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
+        "x": -132,
+        "y": 84,
+        "z": 924
+      },
+      {
+        "label": "Desert",
+        "type": "desert",
+        "x": -1416,
+        "y": 72,
+        "z": -856
+      }
+    ],
+    "mapPosition": {
+      "lat": 64,
+      "lng": -74
+    },
+    "rating": 4.5,
+    "score": 88,
+    "views": 33496,
+    "createdAt": "2026-03-30T00:00:00.000Z"
+  },
+  {
+    "id": "seed-90",
+    "slug": "savanna-portal-ridge-90",
+    "name": "Savanna Portal Ridge 90",
+    "seedNumber": "422152825",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished snow world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Ruined Portal",
+      "Savanna",
+      "Village",
+      "ruined_portal"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
+    ],
+    "structures": [
+      "Monument",
+      "Mansion"
+    ],
+    "spawnCoordinates": {
+      "x": 83,
+      "y": 89,
+      "z": -859
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 83,
+        "y": 89,
+        "z": -859
+      },
+      {
+        "label": "Monument",
+        "type": "monument",
+        "x": 79,
+        "y": 85,
+        "z": 1097
+      },
+      {
+        "label": "Snow",
+        "type": "snow",
+        "x": -1723,
+        "y": 72,
+        "z": -593
+      }
+    ],
+    "mapPosition": {
+      "lat": 22,
+      "lng": -57
+    },
+    "rating": 4.3,
+    "score": 99,
+    "views": 33863,
+    "createdAt": "2026-03-31T00:00:00.000Z"
+  },
+  {
+    "id": "seed-91",
+    "slug": "mountain-arch-village-91",
+    "name": "Mountain Arch Village 91",
+    "seedNumber": "-425964122",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished plains world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Village",
+      "Lake",
+      "Plains",
+      "near_spawn"
+    ],
+    "biomes": [
+      "Plains",
+      "Jungle"
+    ],
+    "structures": [
+      "Village",
+      "Ancient City"
+    ],
+    "spawnCoordinates": {
+      "x": 180,
+      "y": 72,
+      "z": -90
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 180,
+        "y": 72,
+        "z": -90
+      },
+      {
+        "label": "Village",
+        "type": "village",
+        "x": 290,
+        "y": 86,
+        "z": -930
+      },
+      {
+        "label": "Plains",
+        "type": "plains",
+        "x": -2030,
+        "y": 72,
+        "z": -330
+      }
+    ],
+    "mapPosition": {
+      "lat": 35,
+      "lng": -40
+    },
+    "rating": 4.1,
+    "score": 82,
+    "views": 34230,
+    "createdAt": "2026-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "seed-92",
+    "slug": "cherry-lake-spawn-92",
+    "name": "Cherry Lake Spawn 92",
+    "seedNumber": "429775419",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished cherry grove world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Cherry Grove",
+      "Village",
+      "Build",
+      "cherry_grove"
+    ],
+    "biomes": [
+      "Cherry Grove",
+      "Desert"
+    ],
+    "structures": [
+      "Mansion",
+      "Trial Chamber"
+    ],
+    "spawnCoordinates": {
+      "x": 277,
+      "y": 73,
+      "z": -221
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 277,
+        "y": 73,
+        "z": -221
+      },
+      {
+        "label": "Mansion",
+        "type": "mansion",
+        "x": 501,
+        "y": 87,
+        "z": -757
+      },
+      {
+        "label": "Cherry Grove",
+        "type": "cherry_grove",
+        "x": -2337,
+        "y": 72,
+        "z": -67
+      }
+    ],
+    "mapPosition": {
+      "lat": 48,
+      "lng": -23
+    },
+    "rating": 4.8,
+    "score": 93,
+    "views": 34597,
+    "createdAt": "2026-04-02T00:00:00.000Z"
+  },
+  {
+    "id": "seed-93",
+    "slug": "ancient-city-basin-93",
+    "name": "Ancient City Basin 93",
+    "seedNumber": "433586716",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished jungle world with stronghold access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Ancient City",
+      "Deep Dark",
+      "Mountains",
+      "ancient_city"
+    ],
+    "biomes": [
+      "Jungle",
+      "Snow"
+    ],
+    "structures": [
+      "Stronghold",
+      "Ruined Portal"
+    ],
+    "spawnCoordinates": {
+      "x": 374,
+      "y": 74,
+      "z": -352
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 374,
+        "y": 74,
+        "z": -352
+      },
+      {
+        "label": "Stronghold",
+        "type": "stronghold",
+        "x": 712,
+        "y": 88,
+        "z": -584
+      },
+      {
+        "label": "Jungle",
+        "type": "jungle",
+        "x": -2644,
+        "y": 72,
+        "z": 196
+      }
+    ],
+    "mapPosition": {
+      "lat": 61,
+      "lng": -6
+    },
+    "rating": 4.6,
+    "score": 76,
+    "views": 34964,
+    "createdAt": "2026-04-03T00:00:00.000Z"
+  },
+  {
+    "id": "seed-94",
+    "slug": "island-cliff-haven-94",
+    "name": "Island Cliff Haven 94",
+    "seedNumber": "-437398013",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished desert world with ancient city access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Island",
+      "Survival",
+      "Ocean",
+      "island"
+    ],
+    "biomes": [
+      "Desert",
+      "Ocean"
+    ],
+    "structures": [
+      "Ancient City",
+      "Monument"
+    ],
+    "spawnCoordinates": {
+      "x": -429,
+      "y": 75,
+      "z": -483
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -429,
+        "y": 75,
+        "z": -483
+      },
+      {
+        "label": "Ancient City",
+        "type": "ancient_city",
+        "x": 923,
+        "y": -38,
+        "z": -411
+      },
+      {
+        "label": "Desert",
+        "type": "desert",
+        "x": -2951,
+        "y": 72,
+        "z": 459
+      }
+    ],
+    "mapPosition": {
+      "lat": 74,
+      "lng": 11
+    },
+    "rating": 4.4,
+    "score": 87,
+    "views": 35331,
+    "createdAt": "2026-04-04T00:00:00.000Z"
+  },
+  {
+    "id": "seed-95",
+    "slug": "mansion-pine-valley-95",
+    "name": "Mansion Pine Valley 95",
+    "seedNumber": "441209310",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished snow world with trial chamber access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Mansion",
+      "Taiga",
+      "Forest",
+      "woodland_mansion"
+    ],
+    "biomes": [
+      "Snow",
+      "Taiga"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Desert Temple"
+    ],
+    "spawnCoordinates": {
+      "x": -332,
+      "y": 76,
+      "z": -614
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -332,
+        "y": 76,
+        "z": -614
+      },
+      {
+        "label": "Trial Chamber",
+        "type": "trial_chamber",
+        "x": -1066,
+        "y": 90,
+        "z": -238
+      },
+      {
+        "label": "Snow",
+        "type": "snow",
+        "x": -58,
+        "y": 72,
+        "z": 722
+      }
+    ],
+    "mapPosition": {
+      "lat": 32,
+      "lng": 28
+    },
+    "rating": 4.2,
+    "score": 98,
+    "views": 35698,
+    "createdAt": "2026-04-05T00:00:00.000Z"
+  },
+  {
+    "id": "seed-96",
+    "slug": "stronghold-meadow-96",
+    "name": "Stronghold Meadow 96",
+    "seedNumber": "445020607",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished ocean world with ruined portal access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Stronghold",
+      "Village",
+      "Speedrun",
+      "stronghold"
+    ],
+    "biomes": [
+      "Ocean",
+      "Mushroom"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Village"
+    ],
+    "spawnCoordinates": {
+      "x": -235,
+      "y": 77,
+      "z": -745
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -235,
+        "y": 77,
+        "z": -745
+      },
+      {
+        "label": "Ruined Portal",
+        "type": "ruined_portal",
+        "x": -855,
+        "y": 91,
+        "z": -65
+      },
+      {
+        "label": "Ocean",
+        "type": "ocean",
+        "x": -365,
+        "y": 72,
+        "z": 985
+      }
+    ],
+    "mapPosition": {
+      "lat": 45,
+      "lng": 45
+    },
+    "rating": 4.9,
+    "score": 81,
+    "views": 36065,
+    "createdAt": "2026-04-06T00:00:00.000Z"
+  },
+  {
+    "id": "seed-97",
+    "slug": "desert-temple-coast-97",
+    "name": "Desert Temple Coast 97",
+    "seedNumber": "-448831904",
+    "edition": "Java",
+    "version": "1.21.4",
+    "description": "A polished taiga world with monument access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Desert",
+      "Temple",
+      "Coast",
+      "desert"
+    ],
+    "biomes": [
+      "Taiga",
+      "Savanna"
+    ],
+    "structures": [
+      "Monument",
+      "Mansion"
+    ],
+    "spawnCoordinates": {
+      "x": -138,
+      "y": 78,
+      "z": -876
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -138,
+        "y": 78,
+        "z": -876
+      },
+      {
+        "label": "Monument",
+        "type": "monument",
+        "x": -644,
+        "y": 68,
+        "z": 108
+      },
+      {
+        "label": "Taiga",
+        "type": "taiga",
+        "x": -672,
+        "y": 72,
+        "z": 1248
+      }
+    ],
+    "mapPosition": {
+      "lat": 58,
+      "lng": 62
+    },
+    "rating": 4.7,
+    "score": 92,
+    "views": 36432,
+    "createdAt": "2026-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "seed-98",
+    "slug": "snow-ridge-village-98",
+    "name": "Snow Ridge Village 98",
+    "seedNumber": "452643201",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "description": "A polished mushroom world with desert temple access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Snow",
+      "Village",
+      "Ridge",
+      "snowy"
+    ],
+    "biomes": [
+      "Mushroom",
+      "Mountains"
+    ],
+    "structures": [
+      "Desert Temple",
+      "Stronghold"
+    ],
+    "spawnCoordinates": {
+      "x": -41,
+      "y": 79,
+      "z": -107
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": -41,
+        "y": 79,
+        "z": -107
+      },
+      {
+        "label": "Desert Temple",
+        "type": "desert_temple",
+        "x": -433,
+        "y": 69,
+        "z": 281
+      },
+      {
+        "label": "Mushroom",
+        "type": "mushroom",
+        "x": -979,
+        "y": 72,
+        "z": 1511
+      }
+    ],
+    "mapPosition": {
+      "lat": 71,
+      "lng": 79
+    },
+    "rating": 4.5,
+    "score": 75,
+    "views": 36799,
+    "createdAt": "2026-04-08T00:00:00.000Z"
+  },
+  {
+    "id": "seed-99",
+    "slug": "mushroom-bay-99",
+    "name": "Mushroom Bay 99",
+    "seedNumber": "456454498",
+    "edition": "Java",
+    "version": "1.20.6",
+    "description": "A polished savanna world with village access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Mushroom",
+      "Island",
+      "Rare",
+      "island"
+    ],
+    "biomes": [
+      "Savanna",
+      "Plains"
+    ],
+    "structures": [
+      "Village",
+      "Ancient City"
+    ],
+    "spawnCoordinates": {
+      "x": 56,
+      "y": 80,
+      "z": -238
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 56,
+        "y": 80,
+        "z": -238
+      },
+      {
+        "label": "Village",
+        "type": "village",
+        "x": -222,
+        "y": 70,
+        "z": 454
+      },
+      {
+        "label": "Savanna",
+        "type": "savanna",
+        "x": -1286,
+        "y": 72,
+        "z": -1426
+      }
+    ],
+    "mapPosition": {
+      "lat": 29,
+      "lng": 96
+    },
+    "rating": 4.3,
+    "score": 86,
+    "views": 37166,
+    "createdAt": "2026-04-09T00:00:00.000Z"
+  },
+  {
+    "id": "seed-100",
+    "slug": "trial-chamber-mesa-100",
+    "name": "Trial Chamber Mesa 100",
+    "seedNumber": "-460265795",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "description": "A polished mountains world with mansion access, memorable terrain, and clean early-game routing. Built for players who want a world that feels ready the moment they spawn.",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=80",
+    "tags": [
+      "Trial Chamber",
+      "Mesa",
+      "Caves",
+      "trial_chamber"
+    ],
+    "biomes": [
+      "Mountains",
+      "Cherry Grove"
+    ],
+    "structures": [
+      "Mansion",
+      "Trial Chamber"
+    ],
+    "spawnCoordinates": {
+      "x": 153,
+      "y": 81,
+      "z": -369
+    },
+    "highlightCoordinates": [
+      {
+        "label": "Spawn",
+        "type": "spawn",
+        "x": 153,
+        "y": 81,
+        "z": -369
+      },
+      {
+        "label": "Mansion",
+        "type": "mansion",
+        "x": -11,
+        "y": 71,
+        "z": 627
+      },
+      {
+        "label": "Mountains",
+        "type": "mountains",
+        "x": -1593,
+        "y": 72,
+        "z": -1163
+      }
+    ],
+    "mapPosition": {
+      "lat": 42,
+      "lng": -127
+    },
+    "rating": 4.1,
+    "score": 97,
+    "views": 37533,
+    "createdAt": "2026-04-10T00:00:00.000Z"
   }
 ]

@@ -1,8 +1,8 @@
-# Chunkr Agents Guide
+# Chunkify Agents Guide
 
 ## Product Boundary
 
-Chunkr is a minimal Minecraft seed discovery website. It is a fast browsing experience for world seeds, not a dashboard or gaming UI.
+Chunkify is a minimal Minecraft seed discovery website. It is a fast browsing experience for world seeds, not a dashboard or gaming UI.
 
 ## Design Direction
 
@@ -11,6 +11,7 @@ Chunkr is a minimal Minecraft seed discovery website. It is a fast browsing expe
 - Use white typography, #0A0A0A backgrounds, #111111 cards, #A1A1AA secondary text.
 - Avoid pixel fonts, bright green gaming palettes, blocky UI, dashboards, or clutter.
 - Primary workflow: search, browse seed cards, open a seed, copy seed number.
+- The mountain-arch world image is the global background treatment across the app.
 
 ## Stack
 

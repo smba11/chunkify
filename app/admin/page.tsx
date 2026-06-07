@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { allSeeds } from "@/lib/chunkr/seeds";
+import { allSeeds } from "@/lib/chunkify/seeds";
 
 export const metadata: Metadata = {
   title: "Admin",
-  description: "Simple Chunkr seed admin panel."
+  description: "Simple Chunkify seed admin panel."
 };
 
 export default function AdminPage() {

@@ -1,17 +1,19 @@
-# Chunkr
+# Chunkify
 
-Chunkr is a modern, ultra-simple Minecraft seed discovery website. It is inspired by seeds.gg, but cleaner and quieter: fullscreen cinematic hero, fast search, simple seed cards, and one-click seed copying.
+Chunkify is a modern Minecraft seed discovery website inspired by seeds.gg: cinematic full-site imagery, fast search, simple seed cards, an interactive map, and one-click seed copying.
 
-Live Vercel deployment: https://chunkrseeds.vercel.app
+Live Vercel deployment: https://chunkifyseeds.vercel.app
 
 ## Features
 
-- Fullscreen hero with cinematic world imagery
+- Full-site cinematic mountain-arch background with a dark premium tint
 - Glassmorphism search bar and popular searches
 - Minimal seed card grid with hover lift and image zoom
 - Seed detail pages with copy button, structures, coordinates, description, gallery, and similar seeds
+- Interactive seed map with highlight markers
+- Browser-based custom seed finder worker
 - Simple admin panel for add/edit/delete MVP controls
-- 50 realistic example seeds stored in JSON
+- 100 realistic example seeds stored in JSON
 
 ## Local Development
 
@@ -35,5 +37,5 @@ npm audit
 Optional public site URL:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=
+NEXT_PUBLIC_SITE_URL=https://chunkifyseeds.vercel.app
 ```
