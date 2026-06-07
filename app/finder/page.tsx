@@ -10,9 +10,9 @@ export default function FinderPage() {
   return (
     <main className="mx-auto min-h-screen max-w-7xl px-5 pb-20 pt-28 sm:px-8">
       <div className="mb-8 max-w-3xl">
-        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">Custom seed finder</h1>
+        <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-6xl">Finder</h1>
         <p className="mt-3 text-zinc-400">
-          Search natural language seed ideas using your own device. The worker keeps the interface responsive while scanning ranges locally.
+          Search natural language seed ideas using your own device. The Web Worker keeps the interface responsive while scanning.
         </p>
       </div>
       <FinderClient />

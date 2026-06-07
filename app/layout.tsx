@@ -30,11 +30,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <div className="site-tint" aria-hidden="true" />
         <header className="fixed left-0 right-0 top-0 z-50">
           <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 text-white sm:px-8">
-            <Link href="/" className="text-xl font-semibold tracking-tight">Chunkify</Link>
-            <div className="flex items-center gap-5 text-sm text-white/75">
+            <Link href="/" className="font-['Times_New_Roman',Times,serif] text-2xl tracking-normal">Chunkify</Link>
+            <div className="rounded-full border border-white/10 bg-black/25 px-4 py-2 text-sm text-white/75 shadow-2xl backdrop-blur-2xl sm:flex sm:items-center sm:gap-5">
               <Link href="/seeds" className="transition hover:text-white">Seeds</Link>
-              <Link href="/map" className="transition hover:text-white">Map</Link>
-              <Link href="/finder" className="transition hover:text-white">Finder</Link>
+              <Link href="/map" className="ml-4 transition hover:text-white sm:ml-0">Map</Link>
+              <Link href="/finder" className="ml-4 transition hover:text-white sm:ml-0">Finder</Link>
             </div>
           </nav>
         </header>

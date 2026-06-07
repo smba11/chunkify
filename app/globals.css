@@ -19,6 +19,7 @@ body {
   min-height: 100vh;
   background: #0a0a0a;
   color: #fff;
+  overflow-x: hidden;
 }
 
 a {
@@ -36,8 +37,8 @@ a {
   z-index: 0;
   background-image: url("/hero-mountain-arch.png");
   background-size: cover;
-  background-position: center;
-  filter: saturate(0.92) contrast(1.05);
+  background-position: center top;
+  filter: saturate(0.86) contrast(1.08) brightness(0.86);
   transform: scale(1.01);
 }
 
@@ -46,17 +47,17 @@ a {
   inset: 0;
   z-index: 1;
   background:
-    radial-gradient(circle at 50% 22%, rgba(255,255,255,0.05), transparent 34rem),
-    linear-gradient(180deg, rgba(10,10,10,0.45) 0%, rgba(10,10,10,0.58) 42%, rgba(10,10,10,0.88) 100%),
-    rgba(10,10,10,0.2);
+    radial-gradient(circle at 50% 28%, rgba(255,255,255,0.08), transparent 30rem),
+    linear-gradient(180deg, rgba(10,10,10,0.28) 0%, rgba(10,10,10,0.56) 48%, rgba(10,10,10,0.94) 100%),
+    linear-gradient(90deg, rgba(10,10,10,0.34), transparent 28%, transparent 72%, rgba(10,10,10,0.34));
 }
 
 @layer components {
   .glass {
-    @apply border border-white/10 bg-black/35 shadow-[0_24px_90px_rgba(0,0,0,0.32)] backdrop-blur-2xl;
+    @apply border border-white/10 bg-black/30 shadow-[0_24px_90px_rgba(0,0,0,0.34)] backdrop-blur-2xl;
   }
 
   .glass-search {
-    @apply rounded-2xl border border-white/15 bg-black/45 shadow-[0_24px_90px_rgba(0,0,0,0.35)] backdrop-blur-2xl;
+    @apply rounded-[1.75rem] border border-white/15 bg-black/45 shadow-[0_24px_90px_rgba(0,0,0,0.38)] backdrop-blur-2xl;
   }
 }

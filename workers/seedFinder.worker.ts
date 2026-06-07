@@ -39,6 +39,10 @@ self.onmessage = async (event: MessageEvent<WorkerMessage>) => {
 
   try {
     const total = Math.max(0, criteria.endSeed - criteria.startSeed + 1);
+    if (!total) {
+      post("COMPLETE", { cancelled: false, matches: [], checked: 0, elapsedMs: Date.now() - started });
+      return;
+    }
     const batchSize = 750;
     let checked = 0;
     const matches: SeedSearchMatch[] = [];

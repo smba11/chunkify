@@ -7,20 +7,18 @@ import { browseSeeds } from "@/lib/chunkify/seeds";
 const popular = ["Villages", "Cherry Groves", "Islands", "Mansions", "Ancient Cities"];
 
 export default function HomePage() {
-  const featured = browseSeeds({ sort: "popular", limit: 6 });
-  const trending = browseSeeds({ query: "village", limit: 3 });
-  const newest = browseSeeds({ sort: "newest", limit: 3 });
+  const featured = browseSeeds({ sort: "popular", limit: 8 });
+  const newest = browseSeeds({ sort: "newest", limit: 4 });
 
   return (
     <main>
-      <section className="relative min-h-screen overflow-hidden">
-        <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-5 pb-12 pt-28 text-center">
+      <section className="relative min-h-[94vh] overflow-hidden">
+        <div className="mx-auto flex min-h-[94vh] max-w-6xl flex-col items-center justify-center px-5 pb-10 pt-28 text-center">
           <FadeIn>
-            <h1 className="font-['Times_New_Roman',Times,serif] text-6xl font-normal tracking-normal text-white sm:text-8xl">
+            <h1 className="font-['Times_New_Roman',Times,serif] text-7xl font-normal leading-none tracking-normal text-white drop-shadow-[0_18px_50px_rgba(0,0,0,0.55)] sm:text-9xl lg:text-[11rem]">
               Chunkify
             </h1>
-            <p className="mt-5 text-xl text-white/80 sm:text-2xl">Discover incredible Minecraft worlds.</p>
-            <p className="mt-3 text-base text-white/55 sm:text-lg">Browse, search, and find the perfect Minecraft seed.</p>
+            <p className="mx-auto mt-6 max-w-2xl text-lg text-white/82 sm:text-2xl">Discover incredible Minecraft worlds.</p>
           </FadeIn>
 
           <FadeIn delay={0.08}>
@@ -38,28 +36,26 @@ export default function HomePage() {
             </form>
           </FadeIn>
 
-          <div className="mt-6 flex flex-wrap justify-center gap-2">
+          <div className="mt-6 flex max-w-3xl flex-wrap justify-center gap-2">
             {popular.map((item) => <SearchPill key={item} label={item} />)}
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-5 py-20 sm:px-8">
+      <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
         <div className="mb-8 flex items-end justify-between gap-4">
           <div>
-            <p className="text-sm text-zinc-400">Featured Seeds</p>
-            <h2 className="mt-2 text-3xl font-semibold tracking-tight text-white">Start somewhere beautiful.</h2>
+            <h2 className="text-3xl font-semibold tracking-tight text-white">Featured seeds</h2>
           </div>
           <a href="/seeds" className="hidden text-sm text-zinc-300 transition hover:text-white sm:block">Browse all</a>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {featured.map((seed, index) => <SeedCard key={seed.id} seed={seed} priority={index < 3} />)}
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-6 px-5 pb-20 sm:px-8 lg:grid-cols-2">
-        <SeedList title="Trending Seeds" seeds={trending} />
-        <SeedList title="Newest Seeds" seeds={newest} />
+      <section className="mx-auto max-w-7xl px-5 pb-20 sm:px-8">
+        <SeedList title="Newest seeds" seeds={newest} />
       </section>
     </main>
   );
