@@ -17,6 +17,13 @@ export default async function SeedsPage({ searchParams }: Props) {
   const params = await searchParams;
   const activeFilters = Array.isArray(params.filter) ? params.filter : params.filter ? [params.filter] : [];
   const seeds = browseSeeds({ query: params.q, filters: activeFilters, sort: params.sort });
+  const buildHref = (next: { filters?: string[]; sort?: string }) => {
+    const query = new URLSearchParams();
+    if (params.q) query.set("q", params.q);
+    (next.filters ?? activeFilters).forEach((filter) => query.append("filter", filter));
+    if (next.sort ?? params.sort) query.set("sort", next.sort ?? params.sort ?? "");
+    return `/seeds${query.size ? `?${query.toString()}` : ""}`;
+  };
 
   return (
     <main className="mx-auto min-h-screen max-w-7xl px-5 pb-20 pt-28 sm:px-8">
@@ -31,12 +38,13 @@ export default async function SeedsPage({ searchParams }: Props) {
           <div className="flex flex-wrap gap-2 lg:flex-col">
             {filters.map((filter) => {
               const active = activeFilters.includes(filter);
+              const nextFilters = active ? activeFilters.filter((item) => item !== filter) : [...activeFilters, filter];
               return (
                 <a
                   key={filter}
-                  href={`/seeds?filter=${encodeURIComponent(filter)}${params.q ? `&q=${encodeURIComponent(params.q)}` : ""}`}
+                  href={buildHref({ filters: nextFilters })}
                   className={`rounded-full px-4 py-2 text-sm transition lg:w-fit ${
-                    active ? "bg-white text-black" : "bg-white/8 text-zinc-300 hover:bg-white/15 hover:text-white"
+                    active ? "bg-white text-black" : "bg-white/[0.08] text-zinc-300 hover:bg-white/15 hover:text-white"
                   }`}
                 >
                   {filter}
@@ -52,7 +60,13 @@ export default async function SeedsPage({ searchParams }: Props) {
                 ["newest", "Newest"],
                 ["rated", "Highest Rated"]
               ].map(([value, label]) => (
-                <a key={value} href={`/seeds?sort=${value}`} className="rounded-full bg-white/8 px-4 py-2 text-sm text-zinc-300 transition hover:bg-white/15 hover:text-white">
+                <a
+                  key={value}
+                  href={buildHref({ sort: value })}
+                  className={`rounded-full px-4 py-2 text-sm transition hover:bg-white/15 hover:text-white ${
+                    params.sort === value ? "bg-white text-black" : "bg-white/[0.08] text-zinc-300"
+                  }`}
+                >
                   {label}
                 </a>
               ))}

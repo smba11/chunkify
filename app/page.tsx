@@ -16,7 +16,9 @@ export default function HomePage() {
       <section className="relative min-h-screen overflow-hidden">
         <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-5 pb-12 pt-28 text-center">
           <FadeIn>
-            <h1 className="text-6xl font-semibold tracking-tight text-white sm:text-8xl">Chunkify</h1>
+            <h1 className="font-['Times_New_Roman',Times,serif] text-6xl font-normal tracking-normal text-white sm:text-8xl">
+              Chunkify
+            </h1>
             <p className="mt-5 text-xl text-white/80 sm:text-2xl">Discover incredible Minecraft worlds.</p>
             <p className="mt-3 text-base text-white/55 sm:text-lg">Browse, search, and find the perfect Minecraft seed.</p>
           </FadeIn>
