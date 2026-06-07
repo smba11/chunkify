@@ -1,26 +1,21 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { CalendarDays, Download, MapPin, MessageCircle, Star, User } from "lucide-react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
-import { ScoreRing } from "@/components/seeds/score-ring";
-import { SeedActions } from "@/components/seeds/seed-actions";
-import { getApprovedSeeds, getSeedBySlug } from "@/lib/chunkify/mock-data";
+import { CopySeedButton } from "@/components/chunkr/copy-seed-button";
+import { ChunkrSeedCard } from "@/components/chunkr/seed-card";
+import { allSeeds, getSeed } from "@/lib/chunkr/seeds";
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
 export function generateStaticParams() {
-  return getApprovedSeeds().slice(0, 40).map((seed) => ({ slug: seed.slug }));
+  return allSeeds.map((seed) => ({ slug: seed.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const seed = getSeedBySlug(slug);
+  const seed = getSeed(slug);
   if (!seed) return {};
   return {
     title: seed.name,
@@ -28,188 +23,86 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: seed.name,
       description: seed.description,
-      images: [seed.thumbnail]
+      images: [seed.image]
     }
   };
 }
 
-export default async function SeedDetailPage({ params }: Props) {
+export default async function SeedPage({ params }: Props) {
   const { slug } = await params;
-  const seed = getSeedBySlug(slug);
+  const seed = getSeed(slug);
   if (!seed) notFound();
-
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: seed.name,
-    description: seed.description,
-    image: seed.images,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: seed.rating,
-      reviewCount: seed.ratingsCount
-    }
-  };
+  const similar = allSeeds.filter((item) => item.slug !== seed.slug).slice(0, 3);
 
   return (
-    <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
-      <div className="mb-6 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-        <div>
-          <div className="mb-3 flex flex-wrap gap-2">
-            <Badge variant="premium">{seed.edition}</Badge>
-            <Badge variant="secondary">{seed.version}</Badge>
-            {seed.categories.slice(0, 3).map((category) => <Badge key={category} variant="outline">{category}</Badge>)}
-          </div>
-          <h1 className="text-4xl font-semibold tracking-normal lg:text-5xl">{seed.name}</h1>
-          <p className="mt-3 max-w-3xl text-muted-foreground">{seed.description}</p>
-        </div>
-        <div className="min-w-72">
-          <SeedActions seedNumber={seed.seedNumber} title={seed.name} />
-        </div>
-      </div>
-
-      <section className="grid gap-3 lg:grid-cols-[1.35fr_0.65fr]">
-        <div className="relative aspect-[16/9] overflow-hidden rounded-lg border border-white/10">
-          <Image src={seed.images[0]} alt={`${seed.name} main gallery image`} fill priority sizes="65vw" className="object-cover" />
-        </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
-          {seed.images.slice(1, 3).map((image, index) => (
-            <div key={image} className="relative aspect-[16/9] overflow-hidden rounded-lg border border-white/10">
-              <Image src={image} alt={`${seed.name} gallery image ${index + 2}`} fill sizes="35vw" className="object-cover" />
+    <main className="min-h-screen pb-20">
+      <section className="relative h-[72vh] min-h-[520px] overflow-hidden">
+        <Image src={seed.image} alt={seed.name} fill priority sizes="100vw" className="object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-black/25 to-black/20" />
+        <div className="absolute bottom-0 left-0 right-0">
+          <div className="mx-auto max-w-7xl px-5 pb-12 sm:px-8">
+            <p className="text-sm text-white/70">{seed.edition} · {seed.version}</p>
+            <h1 className="mt-3 max-w-4xl text-5xl font-semibold tracking-tight text-white sm:text-7xl">{seed.name}</h1>
+            <div className="mt-6 flex flex-wrap items-center gap-3">
+              <code className="rounded-full bg-white/15 px-4 py-2 text-sm text-white backdrop-blur-md">Seed #{seed.seedNumber}</code>
+              <CopySeedButton seedNumber={seed.seedNumber} />
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
-      <section className="mt-8 grid gap-6 lg:grid-cols-[1fr_360px]">
-        <div className="space-y-6">
-          <Card>
-            <CardHeader>
-              <CardTitle>Property Valuation</CardTitle>
-            </CardHeader>
-            <CardContent className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              <ScoreRing value={seed.scores.seed} label="Seed Score" />
-              <ScoreRing value={seed.scores.rarity} label="Rarity Score" />
-              <ScoreRing value={seed.scores.builder} label="Builder Score" />
-              <ScoreRing value={seed.scores.survival} label="Survival Score" />
-              <ScoreRing value={seed.scores.explorer} label="Explorer Score" />
-            </CardContent>
-          </Card>
+      <section className="mx-auto grid max-w-7xl gap-12 px-5 py-14 sm:px-8 lg:grid-cols-[1fr_340px]">
+        <div className="space-y-12">
+          <SimpleSection title="Nearby Structures">
+            <div className="flex flex-wrap gap-2">
+              {seed.structures.map((item) => <span key={item} className="rounded-full bg-[#111111] px-4 py-2 text-sm text-zinc-300">{item}</span>)}
+            </div>
+          </SimpleSection>
 
-          <Card>
-            <CardHeader>
-              <CardTitle>Interactive Map</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="estate-grid relative min-h-[360px] overflow-hidden rounded-lg border border-white/10 bg-black/30">
-                <div className="absolute left-1/2 top-1/2 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary shadow-[0_0_30px_rgba(214,179,106,0.7)]" />
-                {seed.coordinates.map((coord, index) => (
-                  <div
-                    key={coord.label}
-                    className="absolute rounded-full border border-white/20 bg-white/10 px-2 py-1 text-xs backdrop-blur"
-                    style={{ left: `${16 + (index * 17) % 70}%`, top: `${18 + (index * 23) % 64}%` }}
-                  >
-                    {coord.type}
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle>Coordinate List</CardTitle>
-            </CardHeader>
-            <CardContent className="overflow-hidden rounded-b-lg p-0">
-              <div className="divide-y divide-white/10">
-                {seed.coordinates.map((coord) => (
-                  <div key={coord.label} className="grid gap-3 p-4 sm:grid-cols-[1fr_auto]">
-                    <div>
-                      <p className="font-medium">{coord.label}</p>
-                      <p className="mt-1 text-sm text-muted-foreground">{coord.note}</p>
-                    </div>
-                    <code className="rounded-md border border-white/10 bg-black/25 px-3 py-2 text-sm text-primary">
-                      X {coord.x} / Y {coord.y} / Z {coord.z}
-                    </code>
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
-
-          <div className="grid gap-6 md:grid-cols-2">
-            <Card>
-              <CardHeader><CardTitle>Ratings</CardTitle></CardHeader>
-              <CardContent>
-                <div className="flex items-center gap-3">
-                  <Star className="h-6 w-6 fill-primary text-primary" />
-                  <p className="text-3xl font-semibold">{seed.rating}</p>
-                  <p className="text-sm text-muted-foreground">from {seed.ratingsCount} reviews</p>
+          <SimpleSection title="Coordinates">
+            <div className="divide-y divide-white/10 rounded-3xl bg-[#111111]">
+              {seed.coordinates.map((coord) => (
+                <div key={coord.label} className="flex items-center justify-between gap-4 p-5">
+                  <span className="text-zinc-300">{coord.label}</span>
+                  <code className="text-sm text-white">X {coord.x} / Y {coord.y} / Z {coord.z}</code>
                 </div>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader><CardTitle>Comments</CardTitle></CardHeader>
-              <CardContent className="space-y-3 text-sm text-muted-foreground">
-                <p>"Spawn feels impossibly polished. The village route is perfect for a survival base."</p>
-                <Separator />
-                <p>"Strong builder value. The ridge line photographs beautifully at sunrise."</p>
-              </CardContent>
-            </Card>
-          </div>
+              ))}
+            </div>
+          </SimpleSection>
+
+          <SimpleSection title="Description">
+            <p className="max-w-2xl text-lg leading-8 text-zinc-300">{seed.description}</p>
+          </SimpleSection>
         </div>
 
-        <aside className="space-y-6">
-          <Card>
-            <CardHeader><CardTitle>Seed Information</CardTitle></CardHeader>
-            <CardContent className="space-y-4 text-sm">
-              <InfoRow label="Seed Number" value={seed.seedNumber} />
-              <InfoRow label="Version" value={seed.version} />
-              <InfoRow label="Edition" value={seed.edition} />
-              <InfoRow label="Spawn" value={`${seed.spawn.x}, ${seed.spawn.y}, ${seed.spawn.z}`} />
-              <InfoRow label="Upload Date" value={new Date(seed.uploadDate).toLocaleDateString()} />
-              <div className="flex items-center gap-3 pt-2">
-                <Avatar>
-                  <AvatarImage src={seed.authorAvatar} alt={seed.author} />
-                  <AvatarFallback>{seed.author.slice(0, 2)}</AvatarFallback>
-                </Avatar>
-                <div>
-                  <p className="font-medium">{seed.author}</p>
-                  <p className="text-muted-foreground">@{seed.authorUsername}</p>
+        <aside>
+          <SimpleSection title="Image Gallery">
+            <div className="grid gap-3">
+              {[seed.image, ...similar.slice(0, 2).map((item) => item.image)].map((image, index) => (
+                <div key={image + index} className="relative aspect-video overflow-hidden rounded-3xl bg-[#111111]">
+                  <Image src={image} alt={`${seed.name} gallery ${index + 1}`} fill sizes="340px" className="object-cover" />
                 </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader><CardTitle>Location Highlights</CardTitle></CardHeader>
-            <CardContent className="flex flex-wrap gap-2">
-              {[...seed.structures, ...seed.biomes].slice(0, 10).map((item) => <Badge key={item} variant="secondary">{item}</Badge>)}
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader><CardTitle>Market Activity</CardTitle></CardHeader>
-            <CardContent className="space-y-3 text-sm">
-              <p className="flex items-center justify-between"><span className="inline-flex items-center gap-2 text-muted-foreground"><Download className="h-4 w-4" /> Downloads</span>{seed.downloads.toLocaleString()}</p>
-              <p className="flex items-center justify-between"><span className="inline-flex items-center gap-2 text-muted-foreground"><MessageCircle className="h-4 w-4" /> Comments</span>{Math.round(seed.ratingsCount / 2)}</p>
-              <p className="flex items-center justify-between"><span className="inline-flex items-center gap-2 text-muted-foreground"><MapPin className="h-4 w-4" /> Coordinates</span>{seed.coordinates.length}</p>
-              <p className="flex items-center justify-between"><span className="inline-flex items-center gap-2 text-muted-foreground"><User className="h-4 w-4" /> Author</span>{seed.author}</p>
-              <p className="flex items-center justify-between"><span className="inline-flex items-center gap-2 text-muted-foreground"><CalendarDays className="h-4 w-4" /> Listed</span>2026</p>
-            </CardContent>
-          </Card>
+              ))}
+            </div>
+          </SimpleSection>
         </aside>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-5 sm:px-8">
+        <h2 className="mb-6 text-2xl font-semibold tracking-tight text-white">Similar Seeds</h2>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {similar.map((item) => <ChunkrSeedCard key={item.id} seed={item} />)}
+        </div>
       </section>
     </main>
   );
 }
 
-function InfoRow({ label, value }: { label: string; value: string }) {
+function SimpleSection({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <p className="flex items-start justify-between gap-4 border-b border-white/10 pb-3">
-      <span className="text-muted-foreground">{label}</span>
-      <span className="max-w-[190px] text-right font-medium">{value}</span>
-    </p>
+    <section>
+      <h2 className="mb-4 text-2xl font-semibold tracking-tight text-white">{title}</h2>
+      {children}
+    </section>
   );
 }

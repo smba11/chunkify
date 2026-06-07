@@ -1,18 +1,17 @@
-# Chunkify
+# Chunkr
 
-Chunkify is a premium, real-estate-style marketplace for Minecraft world seeds. It is built with Next.js App Router, TypeScript, Tailwind CSS, shadcn-style UI primitives, Framer Motion, and Supabase-ready auth/database/storage wiring.
+Chunkr is a modern, ultra-simple Minecraft seed discovery website. It is inspired by seeds.gg, but cleaner and quieter: fullscreen cinematic hero, fast search, simple seed cards, and one-click seed copying.
 
-Live Vercel deployment: https://chunkifyseeds.vercel.app
+Live Vercel deployment: https://chunkrseeds.vercel.app
 
 ## Features
 
-- Premium dark marketplace UI for browsing Minecraft seeds
-- Home, listing, detail, profile, upload, admin, and auth routes
-- 100 generated sample seed listings for immediate deployment
-- Seed valuation scores: rarity, builder, survival, explorer, and overall seed score
-- Dynamic metadata, OpenGraph data, sitemap, robots, and structured product data
-- Supabase schema with tables, indexes, and RLS policies
-- Vercel-ready project config named `chunkify`
+- Fullscreen hero with cinematic world imagery
+- Glassmorphism search bar and popular searches
+- Minimal seed card grid with hover lift and image zoom
+- Seed detail pages with copy button, structures, coordinates, description, gallery, and similar seeds
+- Simple admin panel for add/edit/delete MVP controls
+- 50 realistic example seeds stored in JSON
 
 ## Local Development
 
@@ -33,13 +32,8 @@ npm audit
 
 ## Environment
 
-Copy `.env.example` and fill in Supabase values when you connect a real project:
+Optional public site URL:
 
 ```bash
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
 NEXT_PUBLIC_SITE_URL=
-SUPABASE_SERVICE_ROLE_KEY=
 ```
-
-Keep `SUPABASE_SERVICE_ROLE_KEY` server-only.

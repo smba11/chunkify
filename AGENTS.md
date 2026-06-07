@@ -1,40 +1,35 @@
-# Chunkify Agents Guide
+# Chunkr Agents Guide
 
 ## Product Boundary
 
-Chunkify is a premium real-estate-style marketplace for Minecraft world seeds. It helps users discover, save, rate, upload, and review simulated seed listings. It is not affiliated with Mojang, Microsoft, Zillow, or Airbnb.
+Chunkr is a minimal Minecraft seed discovery website. It is a fast browsing experience for world seeds, not a dashboard or gaming UI.
+
+## Design Direction
+
+- Minimal, fast, clean, and heavily image-led.
+- Inspired by seeds.gg, but simpler.
+- Use white typography, #0A0A0A backgrounds, #111111 cards, #A1A1AA secondary text.
+- Avoid pixel fonts, bright green gaming palettes, blocky UI, dashboards, or clutter.
+- Primary workflow: search, browse seed cards, open a seed, copy seed number.
 
 ## Stack
 
-- Next.js App Router with TypeScript
-- Tailwind CSS and shadcn/ui source components
-- Framer Motion for restrained page animation
-- Supabase Auth, Postgres, RLS, and Storage
-- Vercel deployment
+- Next.js 15 App Router
+- TypeScript
+- Tailwind CSS
+- shadcn/ui source components
+- Framer Motion
+- Static JSON seed data for MVP
 
-## Implementation Rules
+## Data
 
-- Keep the app premium, modern, dark, and information-dense.
-- Use real marketplace UI patterns before game-like UI patterns.
-- Avoid pixel fonts, blocky controls, and cheap gaming aesthetics.
-- Do not expose Supabase service-role keys in browser code.
-- Do not rely on middleware as the only admin/auth boundary; verify authorization in server routes and database RLS.
-- Use `SeedListing`, `SeedScores`, `Coordinate`, and `Edition` naming for seed domain code.
-
-## Current Data Mode
-
-The app ships with 100 generated sample seed listings for immediate Vercel deployment. Supabase schema and API routes are included so persistence can be enabled with environment variables and database setup.
-
-## Supabase Tables
-
-Expected tables: `users`, `seeds`, `seed_images`, `comments`, `ratings`, `favorites`, `follows`, `notifications`, `categories`, `tags`, and `analytics`, plus join tables for seed categories and tags.
+Seed data lives in `data/seeds.json`. Keep the MVP simple unless the user asks for persistence.
 
 ## Verification
 
-Before handing off meaningful changes, run:
+Run:
 
 ```text
 npm run typecheck
 npm run build
-npm audit
 ```

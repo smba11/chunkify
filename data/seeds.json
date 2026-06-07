@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "seed-1",
+    "slug": "mountain-arch-village-1",
+    "name": "Mountain Arch Village 1",
+    "seedNumber": "-82947392",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Village",
+      "Lake",
+      "Plains"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -450,
+        "y": 72,
+        "z": 0
+      },
+      {
+        "label": "Village",
+        "x": -1100,
+        "y": 68,
+        "z": -1100
+      },
+      {
+        "label": "Village",
+        "x": 0,
+        "y": 72,
+        "z": -1600
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-2",
+    "slug": "cherry-lake-spawn-2",
+    "name": "Cherry Lake Spawn 2",
+    "seedNumber": "86758689",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Cherry Grove",
+      "Village",
+      "Build"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -353,
+        "y": 73,
+        "z": -131
+      },
+      {
+        "label": "Cherry Grove",
+        "x": -889,
+        "y": 69,
+        "z": -927
+      },
+      {
+        "label": "Mansion",
+        "x": -307,
+        "y": 72,
+        "z": -1337
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-3",
+    "slug": "ancient-city-basin-3",
+    "name": "Ancient City Basin 3",
+    "seedNumber": "90569986",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Ancient City",
+      "Deep Dark",
+      "Mountains"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -256,
+        "y": 74,
+        "z": -262
+      },
+      {
+        "label": "Ancient City",
+        "x": -678,
+        "y": 70,
+        "z": -754
+      },
+      {
+        "label": "Stronghold",
+        "x": -614,
+        "y": -38,
+        "z": -1074
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-4",
+    "slug": "island-cliff-haven-4",
+    "name": "Island Cliff Haven 4",
+    "seedNumber": "-94381283",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Island",
+      "Survival",
+      "Ocean"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -159,
+        "y": 75,
+        "z": -393
+      },
+      {
+        "label": "Island",
+        "x": -467,
+        "y": 71,
+        "z": -581
+      },
+      {
+        "label": "Ancient City",
+        "x": -921,
+        "y": 72,
+        "z": -811
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-5",
+    "slug": "mansion-pine-valley-5",
+    "name": "Mansion Pine Valley 5",
+    "seedNumber": "98192580",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mansion",
+      "Taiga",
+      "Forest"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Village"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -62,
+        "y": 76,
+        "z": -524
+      },
+      {
+        "label": "Mansion",
+        "x": -256,
+        "y": 72,
+        "z": -408
+      },
+      {
+        "label": "Trial Chamber",
+        "x": -1228,
+        "y": 72,
+        "z": -548
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-6",
+    "slug": "stronghold-meadow-6",
+    "name": "Stronghold Meadow 6",
+    "seedNumber": "102003877",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Stronghold",
+      "Village",
+      "Speedrun"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Mansion"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 35,
+        "y": 77,
+        "z": -655
+      },
+      {
+        "label": "Stronghold",
+        "x": -45,
+        "y": 73,
+        "z": -235
+      },
+      {
+        "label": "Ruined Portal",
+        "x": -1535,
+        "y": 72,
+        "z": -285
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-7",
+    "slug": "desert-temple-coast-7",
+    "name": "Desert Temple Coast 7",
+    "seedNumber": "-105815174",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Desert",
+      "Temple",
+      "Coast"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 132,
+        "y": 78,
+        "z": -786
+      },
+      {
+        "label": "Desert",
+        "x": 166,
+        "y": 74,
+        "z": -62
+      },
+      {
+        "label": "Village",
+        "x": -1842,
+        "y": 72,
+        "z": -22
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-8",
+    "slug": "snow-ridge-village-8",
+    "name": "Snow Ridge Village 8",
+    "seedNumber": "109626471",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Snow",
+      "Village",
+      "Ridge"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 229,
+        "y": 79,
+        "z": -17
+      },
+      {
+        "label": "Snow",
+        "x": 377,
+        "y": 75,
+        "z": 111
+      },
+      {
+        "label": "Mansion",
+        "x": -2149,
+        "y": 72,
+        "z": 241
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-9",
+    "slug": "mushroom-bay-9",
+    "name": "Mushroom Bay 9",
+    "seedNumber": "113437768",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mushroom",
+      "Island",
+      "Rare"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 326,
+        "y": 80,
+        "z": -148
+      },
+      {
+        "label": "Mushroom",
+        "x": 588,
+        "y": 76,
+        "z": 284
+      },
+      {
+        "label": "Stronghold",
+        "x": -2456,
+        "y": 72,
+        "z": 504
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-10",
+    "slug": "trial-chamber-mesa-10",
+    "name": "Trial Chamber Mesa 10",
+    "seedNumber": "-117249065",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Trial Chamber",
+      "Mesa",
+      "Caves"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 423,
+        "y": 81,
+        "z": -279
+      },
+      {
+        "label": "Trial Chamber",
+        "x": 799,
+        "y": 77,
+        "z": 457
+      },
+      {
+        "label": "Ancient City",
+        "x": -2763,
+        "y": 72,
+        "z": 767
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-11",
+    "slug": "mountain-arch-village-11",
+    "name": "Mountain Arch Village 11",
+    "seedNumber": "121060362",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Village",
+      "Lake",
+      "Plains"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -380,
+        "y": 82,
+        "z": -410
+      },
+      {
+        "label": "Village",
+        "x": 1010,
+        "y": 78,
+        "z": 630
+      },
+      {
+        "label": "Village",
+        "x": -3070,
+        "y": 72,
+        "z": 1030
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-12",
+    "slug": "cherry-lake-spawn-12",
+    "name": "Cherry Lake Spawn 12",
+    "seedNumber": "124871659",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Cherry Grove",
+      "Village",
+      "Build"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -283,
+        "y": 83,
+        "z": -541
+      },
+      {
+        "label": "Cherry Grove",
+        "x": -979,
+        "y": 79,
+        "z": 803
+      },
+      {
+        "label": "Mansion",
+        "x": -177,
+        "y": 72,
+        "z": 1293
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-13",
+    "slug": "ancient-city-basin-13",
+    "name": "Ancient City Basin 13",
+    "seedNumber": "-128682956",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Ancient City",
+      "Deep Dark",
+      "Mountains"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -186,
+        "y": 84,
+        "z": -672
+      },
+      {
+        "label": "Ancient City",
+        "x": -768,
+        "y": 80,
+        "z": 976
+      },
+      {
+        "label": "Stronghold",
+        "x": -484,
+        "y": -38,
+        "z": 1556
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-14",
+    "slug": "island-cliff-haven-14",
+    "name": "Island Cliff Haven 14",
+    "seedNumber": "132494253",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Island",
+      "Survival",
+      "Ocean"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -89,
+        "y": 85,
+        "z": -803
+      },
+      {
+        "label": "Island",
+        "x": -557,
+        "y": 81,
+        "z": -1051
+      },
+      {
+        "label": "Ancient City",
+        "x": -791,
+        "y": 72,
+        "z": -1381
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-15",
+    "slug": "mansion-pine-valley-15",
+    "name": "Mansion Pine Valley 15",
+    "seedNumber": "136305550",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mansion",
+      "Taiga",
+      "Forest"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Village"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 8,
+        "y": 86,
+        "z": -34
+      },
+      {
+        "label": "Mansion",
+        "x": -346,
+        "y": 82,
+        "z": -878
+      },
+      {
+        "label": "Trial Chamber",
+        "x": -1098,
+        "y": 72,
+        "z": -1118
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-16",
+    "slug": "stronghold-meadow-16",
+    "name": "Stronghold Meadow 16",
+    "seedNumber": "-140116847",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Stronghold",
+      "Village",
+      "Speedrun"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Mansion"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 105,
+        "y": 87,
+        "z": -165
+      },
+      {
+        "label": "Stronghold",
+        "x": -135,
+        "y": 83,
+        "z": -705
+      },
+      {
+        "label": "Ruined Portal",
+        "x": -1405,
+        "y": 72,
+        "z": -855
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-17",
+    "slug": "desert-temple-coast-17",
+    "name": "Desert Temple Coast 17",
+    "seedNumber": "143928144",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Desert",
+      "Temple",
+      "Coast"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 202,
+        "y": 88,
+        "z": -296
+      },
+      {
+        "label": "Desert",
+        "x": 76,
+        "y": 84,
+        "z": -532
+      },
+      {
+        "label": "Village",
+        "x": -1712,
+        "y": 72,
+        "z": -592
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-18",
+    "slug": "snow-ridge-village-18",
+    "name": "Snow Ridge Village 18",
+    "seedNumber": "147739441",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Snow",
+      "Village",
+      "Ridge"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 299,
+        "y": 89,
+        "z": -427
+      },
+      {
+        "label": "Snow",
+        "x": 287,
+        "y": 85,
+        "z": -359
+      },
+      {
+        "label": "Mansion",
+        "x": -2019,
+        "y": 72,
+        "z": -329
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-19",
+    "slug": "mushroom-bay-19",
+    "name": "Mushroom Bay 19",
+    "seedNumber": "-151550738",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mushroom",
+      "Island",
+      "Rare"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 396,
+        "y": 72,
+        "z": -558
+      },
+      {
+        "label": "Mushroom",
+        "x": 498,
+        "y": 86,
+        "z": -186
+      },
+      {
+        "label": "Stronghold",
+        "x": -2326,
+        "y": 72,
+        "z": -66
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-20",
+    "slug": "trial-chamber-mesa-20",
+    "name": "Trial Chamber Mesa 20",
+    "seedNumber": "155362035",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Trial Chamber",
+      "Mesa",
+      "Caves"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -407,
+        "y": 73,
+        "z": -689
+      },
+      {
+        "label": "Trial Chamber",
+        "x": 709,
+        "y": 87,
+        "z": -13
+      },
+      {
+        "label": "Ancient City",
+        "x": -2633,
+        "y": 72,
+        "z": 197
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-21",
+    "slug": "mountain-arch-village-21",
+    "name": "Mountain Arch Village 21",
+    "seedNumber": "159173332",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Village",
+      "Lake",
+      "Plains"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -310,
+        "y": 74,
+        "z": -820
+      },
+      {
+        "label": "Village",
+        "x": 920,
+        "y": 88,
+        "z": 160
+      },
+      {
+        "label": "Village",
+        "x": -2940,
+        "y": 72,
+        "z": 460
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-22",
+    "slug": "cherry-lake-spawn-22",
+    "name": "Cherry Lake Spawn 22",
+    "seedNumber": "-162984629",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Cherry Grove",
+      "Village",
+      "Build"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -213,
+        "y": 75,
+        "z": -51
+      },
+      {
+        "label": "Cherry Grove",
+        "x": -1069,
+        "y": 89,
+        "z": 333
+      },
+      {
+        "label": "Mansion",
+        "x": -47,
+        "y": 72,
+        "z": 723
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-23",
+    "slug": "ancient-city-basin-23",
+    "name": "Ancient City Basin 23",
+    "seedNumber": "166795926",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Ancient City",
+      "Deep Dark",
+      "Mountains"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -116,
+        "y": 76,
+        "z": -182
+      },
+      {
+        "label": "Ancient City",
+        "x": -858,
+        "y": 90,
+        "z": 506
+      },
+      {
+        "label": "Stronghold",
+        "x": -354,
+        "y": -38,
+        "z": 986
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-24",
+    "slug": "island-cliff-haven-24",
+    "name": "Island Cliff Haven 24",
+    "seedNumber": "170607223",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Island",
+      "Survival",
+      "Ocean"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -19,
+        "y": 77,
+        "z": -313
+      },
+      {
+        "label": "Island",
+        "x": -647,
+        "y": 91,
+        "z": 679
+      },
+      {
+        "label": "Ancient City",
+        "x": -661,
+        "y": 72,
+        "z": 1249
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-25",
+    "slug": "mansion-pine-valley-25",
+    "name": "Mansion Pine Valley 25",
+    "seedNumber": "-174418520",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mansion",
+      "Taiga",
+      "Forest"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Village"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 78,
+        "y": 78,
+        "z": -444
+      },
+      {
+        "label": "Mansion",
+        "x": -436,
+        "y": 68,
+        "z": 852
+      },
+      {
+        "label": "Trial Chamber",
+        "x": -968,
+        "y": 72,
+        "z": 1512
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-26",
+    "slug": "stronghold-meadow-26",
+    "name": "Stronghold Meadow 26",
+    "seedNumber": "178229817",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Stronghold",
+      "Village",
+      "Speedrun"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Mansion"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 175,
+        "y": 79,
+        "z": -575
+      },
+      {
+        "label": "Stronghold",
+        "x": -225,
+        "y": 69,
+        "z": 1025
+      },
+      {
+        "label": "Ruined Portal",
+        "x": -1275,
+        "y": 72,
+        "z": -1425
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-27",
+    "slug": "desert-temple-coast-27",
+    "name": "Desert Temple Coast 27",
+    "seedNumber": "182041114",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Desert",
+      "Temple",
+      "Coast"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 272,
+        "y": 80,
+        "z": -706
+      },
+      {
+        "label": "Desert",
+        "x": -14,
+        "y": 70,
+        "z": -1002
+      },
+      {
+        "label": "Village",
+        "x": -1582,
+        "y": 72,
+        "z": -1162
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-28",
+    "slug": "snow-ridge-village-28",
+    "name": "Snow Ridge Village 28",
+    "seedNumber": "-185852411",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Snow",
+      "Village",
+      "Ridge"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 369,
+        "y": 81,
+        "z": -837
+      },
+      {
+        "label": "Snow",
+        "x": 197,
+        "y": 71,
+        "z": -829
+      },
+      {
+        "label": "Mansion",
+        "x": -1889,
+        "y": 72,
+        "z": -899
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-29",
+    "slug": "mushroom-bay-29",
+    "name": "Mushroom Bay 29",
+    "seedNumber": "189663708",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mushroom",
+      "Island",
+      "Rare"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -434,
+        "y": 82,
+        "z": -68
+      },
+      {
+        "label": "Mushroom",
+        "x": 408,
+        "y": 72,
+        "z": -656
+      },
+      {
+        "label": "Stronghold",
+        "x": -2196,
+        "y": 72,
+        "z": -636
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-30",
+    "slug": "trial-chamber-mesa-30",
+    "name": "Trial Chamber Mesa 30",
+    "seedNumber": "193475005",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Trial Chamber",
+      "Mesa",
+      "Caves"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -337,
+        "y": 83,
+        "z": -199
+      },
+      {
+        "label": "Trial Chamber",
+        "x": 619,
+        "y": 73,
+        "z": -483
+      },
+      {
+        "label": "Ancient City",
+        "x": -2503,
+        "y": 72,
+        "z": -373
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-31",
+    "slug": "mountain-arch-village-31",
+    "name": "Mountain Arch Village 31",
+    "seedNumber": "-197286302",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Village",
+      "Lake",
+      "Plains"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -240,
+        "y": 84,
+        "z": -330
+      },
+      {
+        "label": "Village",
+        "x": 830,
+        "y": 74,
+        "z": -310
+      },
+      {
+        "label": "Village",
+        "x": -2810,
+        "y": 72,
+        "z": -110
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-32",
+    "slug": "cherry-lake-spawn-32",
+    "name": "Cherry Lake Spawn 32",
+    "seedNumber": "201097599",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Cherry Grove",
+      "Village",
+      "Build"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -143,
+        "y": 85,
+        "z": -461
+      },
+      {
+        "label": "Cherry Grove",
+        "x": 1041,
+        "y": 75,
+        "z": -137
+      },
+      {
+        "label": "Mansion",
+        "x": -3117,
+        "y": 72,
+        "z": 153
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-33",
+    "slug": "ancient-city-basin-33",
+    "name": "Ancient City Basin 33",
+    "seedNumber": "204908896",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Ancient City",
+      "Deep Dark",
+      "Mountains"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -46,
+        "y": 86,
+        "z": -592
+      },
+      {
+        "label": "Ancient City",
+        "x": -948,
+        "y": 76,
+        "z": 36
+      },
+      {
+        "label": "Stronghold",
+        "x": -224,
+        "y": -38,
+        "z": 416
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-34",
+    "slug": "island-cliff-haven-34",
+    "name": "Island Cliff Haven 34",
+    "seedNumber": "-208720193",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Island",
+      "Survival",
+      "Ocean"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 51,
+        "y": 87,
+        "z": -723
+      },
+      {
+        "label": "Island",
+        "x": -737,
+        "y": 77,
+        "z": 209
+      },
+      {
+        "label": "Ancient City",
+        "x": -531,
+        "y": 72,
+        "z": 679
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-35",
+    "slug": "mansion-pine-valley-35",
+    "name": "Mansion Pine Valley 35",
+    "seedNumber": "212531490",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mansion",
+      "Taiga",
+      "Forest"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Village"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 148,
+        "y": 88,
+        "z": -854
+      },
+      {
+        "label": "Mansion",
+        "x": -526,
+        "y": 78,
+        "z": 382
+      },
+      {
+        "label": "Trial Chamber",
+        "x": -838,
+        "y": 72,
+        "z": 942
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-36",
+    "slug": "stronghold-meadow-36",
+    "name": "Stronghold Meadow 36",
+    "seedNumber": "216342787",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Stronghold",
+      "Village",
+      "Speedrun"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Mansion"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 245,
+        "y": 89,
+        "z": -85
+      },
+      {
+        "label": "Stronghold",
+        "x": -315,
+        "y": 79,
+        "z": 555
+      },
+      {
+        "label": "Ruined Portal",
+        "x": -1145,
+        "y": 72,
+        "z": 1205
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-37",
+    "slug": "desert-temple-coast-37",
+    "name": "Desert Temple Coast 37",
+    "seedNumber": "-220154084",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Desert",
+      "Temple",
+      "Coast"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 342,
+        "y": 72,
+        "z": -216
+      },
+      {
+        "label": "Desert",
+        "x": -104,
+        "y": 80,
+        "z": 728
+      },
+      {
+        "label": "Village",
+        "x": -1452,
+        "y": 72,
+        "z": 1468
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-38",
+    "slug": "snow-ridge-village-38",
+    "name": "Snow Ridge Village 38",
+    "seedNumber": "223965381",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Snow",
+      "Village",
+      "Ridge"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 439,
+        "y": 73,
+        "z": -347
+      },
+      {
+        "label": "Snow",
+        "x": 107,
+        "y": 81,
+        "z": 901
+      },
+      {
+        "label": "Mansion",
+        "x": -1759,
+        "y": 72,
+        "z": -1469
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-39",
+    "slug": "mushroom-bay-39",
+    "name": "Mushroom Bay 39",
+    "seedNumber": "227776678",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mushroom",
+      "Island",
+      "Rare"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -364,
+        "y": 74,
+        "z": -478
+      },
+      {
+        "label": "Mushroom",
+        "x": 318,
+        "y": 82,
+        "z": 1074
+      },
+      {
+        "label": "Stronghold",
+        "x": -2066,
+        "y": 72,
+        "z": -1206
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-40",
+    "slug": "trial-chamber-mesa-40",
+    "name": "Trial Chamber Mesa 40",
+    "seedNumber": "-231587975",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Trial Chamber",
+      "Mesa",
+      "Caves"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -267,
+        "y": 75,
+        "z": -609
+      },
+      {
+        "label": "Trial Chamber",
+        "x": 529,
+        "y": 83,
+        "z": -953
+      },
+      {
+        "label": "Ancient City",
+        "x": -2373,
+        "y": 72,
+        "z": -943
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-41",
+    "slug": "mountain-arch-village-41",
+    "name": "Mountain Arch Village 41",
+    "seedNumber": "235399272",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Village",
+      "Lake",
+      "Plains"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -170,
+        "y": 76,
+        "z": -740
+      },
+      {
+        "label": "Village",
+        "x": 740,
+        "y": 84,
+        "z": -780
+      },
+      {
+        "label": "Village",
+        "x": -2680,
+        "y": 72,
+        "z": -680
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-42",
+    "slug": "cherry-lake-spawn-42",
+    "name": "Cherry Lake Spawn 42",
+    "seedNumber": "239210569",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Cherry Grove",
+      "Village",
+      "Build"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -73,
+        "y": 77,
+        "z": -871
+      },
+      {
+        "label": "Cherry Grove",
+        "x": 951,
+        "y": 85,
+        "z": -607
+      },
+      {
+        "label": "Mansion",
+        "x": -2987,
+        "y": 72,
+        "z": -417
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-43",
+    "slug": "ancient-city-basin-43",
+    "name": "Ancient City Basin 43",
+    "seedNumber": "-243021866",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Ancient City",
+      "Deep Dark",
+      "Mountains"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 24,
+        "y": 78,
+        "z": -102
+      },
+      {
+        "label": "Ancient City",
+        "x": -1038,
+        "y": 86,
+        "z": -434
+      },
+      {
+        "label": "Stronghold",
+        "x": -94,
+        "y": -38,
+        "z": -154
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-44",
+    "slug": "island-cliff-haven-44",
+    "name": "Island Cliff Haven 44",
+    "seedNumber": "246833163",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Island",
+      "Survival",
+      "Ocean"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 121,
+        "y": 79,
+        "z": -233
+      },
+      {
+        "label": "Island",
+        "x": -827,
+        "y": 87,
+        "z": -261
+      },
+      {
+        "label": "Ancient City",
+        "x": -401,
+        "y": 72,
+        "z": 109
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-45",
+    "slug": "mansion-pine-valley-45",
+    "name": "Mansion Pine Valley 45",
+    "seedNumber": "250644460",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mansion",
+      "Taiga",
+      "Forest"
+    ],
+    "structures": [
+      "Trial Chamber",
+      "Village"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 218,
+        "y": 80,
+        "z": -364
+      },
+      {
+        "label": "Mansion",
+        "x": -616,
+        "y": 88,
+        "z": -88
+      },
+      {
+        "label": "Trial Chamber",
+        "x": -708,
+        "y": 72,
+        "z": 372
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-46",
+    "slug": "stronghold-meadow-46",
+    "name": "Stronghold Meadow 46",
+    "seedNumber": "-254455757",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Stronghold",
+      "Village",
+      "Speedrun"
+    ],
+    "structures": [
+      "Ruined Portal",
+      "Mansion"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 315,
+        "y": 81,
+        "z": -495
+      },
+      {
+        "label": "Stronghold",
+        "x": -405,
+        "y": 89,
+        "z": 85
+      },
+      {
+        "label": "Ruined Portal",
+        "x": -1015,
+        "y": 72,
+        "z": 635
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-47",
+    "slug": "desert-temple-coast-47",
+    "name": "Desert Temple Coast 47",
+    "seedNumber": "258267054",
+    "edition": "Java",
+    "version": "1.20.6",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Desert",
+      "Temple",
+      "Coast"
+    ],
+    "structures": [
+      "Village",
+      "Stronghold"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": 412,
+        "y": 82,
+        "z": -626
+      },
+      {
+        "label": "Desert",
+        "x": -194,
+        "y": 90,
+        "z": 258
+      },
+      {
+        "label": "Village",
+        "x": -1322,
+        "y": 72,
+        "z": 898
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-48",
+    "slug": "snow-ridge-village-48",
+    "name": "Snow Ridge Village 48",
+    "seedNumber": "262078351",
+    "edition": "Bedrock",
+    "version": "1.20.4",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Snow",
+      "Village",
+      "Ridge"
+    ],
+    "structures": [
+      "Mansion",
+      "Ancient City"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -391,
+        "y": 83,
+        "z": -757
+      },
+      {
+        "label": "Snow",
+        "x": 17,
+        "y": 91,
+        "z": 431
+      },
+      {
+        "label": "Mansion",
+        "x": -1629,
+        "y": 72,
+        "z": 1161
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-49",
+    "slug": "mushroom-bay-49",
+    "name": "Mushroom Bay 49",
+    "seedNumber": "-265889648",
+    "edition": "Java",
+    "version": "1.21.4",
+    "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Mushroom",
+      "Island",
+      "Rare"
+    ],
+    "structures": [
+      "Stronghold",
+      "Trial Chamber"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -294,
+        "y": 84,
+        "z": -888
+      },
+      {
+        "label": "Mushroom",
+        "x": 228,
+        "y": 68,
+        "z": 604
+      },
+      {
+        "label": "Stronghold",
+        "x": -1936,
+        "y": 72,
+        "z": 1424
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  },
+  {
+    "id": "seed-50",
+    "slug": "trial-chamber-mesa-50",
+    "name": "Trial Chamber Mesa 50",
+    "seedNumber": "269700945",
+    "edition": "Bedrock",
+    "version": "1.21.1",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "tags": [
+      "Trial Chamber",
+      "Mesa",
+      "Caves"
+    ],
+    "structures": [
+      "Ancient City",
+      "Ruined Portal"
+    ],
+    "coordinates": [
+      {
+        "label": "Spawn",
+        "x": -197,
+        "y": 85,
+        "z": -119
+      },
+      {
+        "label": "Trial Chamber",
+        "x": 439,
+        "y": 69,
+        "z": 777
+      },
+      {
+        "label": "Ancient City",
+        "x": -2243,
+        "y": 72,
+        "z": -1513
+      }
+    ],
+    "description": "A clean, memorable Minecraft seed with strong first-impression terrain, useful nearby structures, and enough open space to start building immediately."
+  }
+]

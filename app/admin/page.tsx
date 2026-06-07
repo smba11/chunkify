@@ -1,82 +1,51 @@
 import type { Metadata } from "next";
-import { BarChart3, CheckCircle2, Shield, Star, Trash2, Users } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { seedListings } from "@/lib/chunkify/mock-data";
+import { allSeeds } from "@/lib/chunkr/seeds";
 
 export const metadata: Metadata = {
-  title: "Admin Panel",
-  description: "Chunkify approval queue, analytics, user management, and featured seed controls."
+  title: "Admin",
+  description: "Simple Chunkr seed admin panel."
 };
 
 export default function AdminPage() {
-  const pending = seedListings.filter((seed) => seed.status === "pending");
-  const approved = seedListings.filter((seed) => seed.status === "approved");
-
   return (
-    <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      <div className="mb-8 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-        <div>
-          <Badge variant="premium" className="mb-4">Admin</Badge>
-          <h1 className="text-4xl font-semibold">Chunkify command center</h1>
-          <p className="mt-3 text-muted-foreground">Approve submissions, feature seeds, manage users, and monitor marketplace analytics.</p>
-        </div>
-        <Button variant="secondary"><Shield className="h-4 w-4" /> Role protected by Supabase RLS</Button>
+    <main className="mx-auto min-h-screen max-w-5xl px-5 pb-20 pt-28 sm:px-8">
+      <div className="mb-10">
+        <h1 className="text-4xl font-semibold tracking-tight text-white">Admin</h1>
+        <p className="mt-3 text-zinc-400">Simple MVP controls for managing seed listings.</p>
       </div>
 
-      <section className="grid gap-4 md:grid-cols-4">
-        <Metric icon={CheckCircle2} label="Approved" value={approved.length.toString()} />
-        <Metric icon={BarChart3} label="Total views" value={approved.reduce((sum, seed) => sum + seed.views, 0).toLocaleString()} />
-        <Metric icon={Users} label="Users" value="5,842" />
-        <Metric icon={Star} label="Avg rating" value="4.6" />
-      </section>
+      <section className="grid gap-6 lg:grid-cols-[360px_1fr]">
+        <form className="rounded-3xl bg-[#111111] p-6">
+          <h2 className="text-xl font-semibold text-white">Add seed</h2>
+          <div className="mt-5 space-y-3">
+            {["Seed name", "Seed number", "Edition", "Version", "Tags"].map((label) => (
+              <input key={label} placeholder={label} className="w-full rounded-2xl border border-white/10 bg-black px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500" />
+            ))}
+            <textarea placeholder="Description" className="min-h-28 w-full rounded-2xl border border-white/10 bg-black px-4 py-3 text-sm text-white outline-none placeholder:text-zinc-500" />
+            <button type="button" className="w-full rounded-full bg-white py-3 text-sm font-medium text-black">Add seed</button>
+          </div>
+        </form>
 
-      <section className="mt-8 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-        <Card>
-          <CardHeader><CardTitle>Approval Queue</CardTitle></CardHeader>
-          <CardContent className="p-0">
-            <div className="divide-y divide-white/10">
-              {pending.map((seed) => (
-                <div key={seed.id} className="grid gap-4 p-4 md:grid-cols-[1fr_auto] md:items-center">
-                  <div>
-                    <p className="font-medium">{seed.name}</p>
-                    <p className="mt-1 text-sm text-muted-foreground">{seed.edition} · {seed.version} · submitted by {seed.author}</p>
-                  </div>
-                  <div className="flex gap-2">
-                    <Button size="sm"><CheckCircle2 className="h-4 w-4" /> Approve</Button>
-                    <Button size="sm" variant="destructive"><Trash2 className="h-4 w-4" /> Delete</Button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader><CardTitle>Feature Seeds</CardTitle></CardHeader>
-          <CardContent className="space-y-3">
-            {approved.slice(0, 6).map((seed) => (
-              <div key={seed.id} className="flex items-center justify-between rounded-md border border-white/10 p-3">
+        <div className="rounded-3xl bg-[#111111]">
+          <div className="border-b border-white/10 p-5">
+            <h2 className="text-xl font-semibold text-white">Seeds</h2>
+          </div>
+          <div className="divide-y divide-white/10">
+            {allSeeds.slice(0, 12).map((seed) => (
+              <div key={seed.id} className="flex items-center justify-between gap-4 p-5">
                 <div>
-                  <p className="text-sm font-medium">{seed.name}</p>
-                  <p className="text-xs text-muted-foreground">Score {seed.scores.seed}</p>
+                  <p className="font-medium text-white">{seed.name}</p>
+                  <p className="mt-1 text-sm text-zinc-500">#{seed.seedNumber}</p>
                 </div>
-                <Button size="sm" variant={seed.featured ? "default" : "secondary"}>{seed.featured ? "Featured" : "Feature"}</Button>
+                <div className="flex gap-2">
+                  <button className="rounded-full bg-white/10 px-4 py-2 text-sm text-white">Edit</button>
+                  <button className="rounded-full bg-white px-4 py-2 text-sm text-black">Delete</button>
+                </div>
               </div>
             ))}
-          </CardContent>
-        </Card>
+          </div>
+        </div>
       </section>
     </main>
-  );
-}
-
-function Metric({ icon: Icon, label, value }: { icon: React.ElementType; label: string; value: string }) {
-  return (
-    <Card className="p-5">
-      <Icon className="h-5 w-5 text-primary" />
-      <p className="mt-4 text-2xl font-semibold">{value}</p>
-      <p className="text-sm text-muted-foreground">{label}</p>
-    </Card>
   );
 }

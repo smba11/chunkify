@@ -1,40 +1,40 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
-import { SiteNav } from "@/components/brand/site-nav";
-import { cn } from "@/lib/utils";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-display" });
-
+const inter = Inter({ subsets: ["latin"] });
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Chunkify - Luxury Minecraft Seed Listings",
-    template: "%s | Chunkify"
+    default: "Chunkr - Minecraft Seed Discovery",
+    template: "%s | Chunkr"
   },
-  description: "Browse Minecraft world seeds like premium real estate, with rarity scores, build potential, coordinates, and rich discovery data.",
+  description: "Discover incredible Minecraft worlds with a minimal, fast seed browser.",
   openGraph: {
-    title: "Chunkify",
-    description: "Zillow for Minecraft world seeds.",
+    title: "Chunkr",
+    description: "Discover incredible Minecraft worlds.",
     url: siteUrl,
-    siteName: "Chunkify",
+    siteName: "Chunkr",
     type: "website"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Chunkify",
-    description: "Discover your next Minecraft world."
   }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={cn("dark", inter.variable, playfair.variable)}>
-      <body>
-        <SiteNav />
+    <html lang="en">
+      <body className={inter.className}>
+        <header className="fixed left-0 right-0 top-0 z-50">
+          <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 text-white sm:px-8">
+            <Link href="/" className="text-xl font-semibold tracking-tight">Chunkr</Link>
+            <div className="flex items-center gap-5 text-sm text-white/75">
+              <Link href="/seeds" className="transition hover:text-white">Seeds</Link>
+              <Link href="/admin" className="transition hover:text-white">Admin</Link>
+            </div>
+          </nav>
+        </header>
         {children}
       </body>
     </html>
