@@ -1,15 +1,16 @@
 import { Search } from "lucide-react";
 import { FadeIn } from "@/components/chunkify/fade-in";
-import { SeedCard } from "@/components/chunkify/seed-card";
 import { SearchPill } from "@/components/chunkify/search-pill";
-import { browseSeeds } from "@/lib/chunkify/seeds";
 
 const popular = ["Villages", "Cherry Groves", "Islands", "Mansions", "Ancient Cities"];
+const searches = [
+  ["Cherry Grove Village", "cherry grove village near spawn"],
+  ["Island Mansion", "mansion on an island with an ocean view"],
+  ["Snowy Ancient City", "ancient city under snowy mountains"],
+  ["Speedrun Stronghold", "stronghold close to spawn with multiple villages nearby"]
+];
 
 export default function HomePage() {
-  const featured = browseSeeds({ sort: "popular", limit: 8 });
-  const newest = browseSeeds({ sort: "newest", limit: 4 });
-
   return (
     <main>
       <section className="relative min-h-[94vh] overflow-hidden">
@@ -45,37 +46,20 @@ export default function HomePage() {
       <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
         <div className="mb-8 flex items-end justify-between gap-4">
           <div>
-            <h2 className="text-3xl font-semibold tracking-tight text-white">Featured seeds</h2>
+            <h2 className="text-3xl font-semibold tracking-tight text-white">Start a Cubiomes search</h2>
           </div>
-          <a href="/seeds" className="hidden text-sm text-zinc-300 transition hover:text-white sm:block">Browse all</a>
+          <a href="/finder" className="hidden text-sm text-zinc-300 transition hover:text-white sm:block">AI Finder</a>
         </div>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {featured.map((seed, index) => <SeedCard key={seed.id} seed={seed} priority={index < 3} />)}
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {searches.map(([label, query]) => (
+            <a key={query} href={`/seeds?q=${encodeURIComponent(query)}`} className="group rounded-[1.65rem] border border-white/10 bg-black/30 p-5 shadow-[0_22px_80px_rgba(0,0,0,0.26)] backdrop-blur-xl transition hover:-translate-y-1 hover:bg-black/40">
+              <p className="text-sm text-zinc-500">Local search</p>
+              <h3 className="mt-10 text-2xl font-semibold tracking-tight text-white">{label}</h3>
+              <p className="mt-3 text-sm leading-6 text-zinc-400">{query}</p>
+            </a>
+          ))}
         </div>
-      </section>
-
-      <section className="mx-auto max-w-7xl px-5 pb-20 sm:px-8">
-        <SeedList title="Newest seeds" seeds={newest} />
       </section>
     </main>
-  );
-}
-
-function SeedList({ title, seeds }: { title: string; seeds: ReturnType<typeof browseSeeds> }) {
-  return (
-    <div className="glass rounded-[2rem] p-5">
-      <h2 className="mb-4 text-xl font-semibold text-white">{title}</h2>
-      <div className="space-y-3">
-        {seeds.map((seed) => (
-          <a key={seed.id} href={`/seed/${seed.slug}`} className="flex items-center justify-between gap-4 rounded-2xl bg-white/[0.04] p-4 transition hover:bg-white/[0.08]">
-            <div>
-              <p className="font-medium text-white">{seed.name}</p>
-              <p className="mt-1 text-sm text-zinc-400">#{seed.seedNumber}</p>
-            </div>
-            <span className="rounded-full bg-white/10 px-3 py-1 text-xs text-white">{seed.score}</span>
-          </a>
-        ))}
-      </div>
-    </div>
   );
 }
