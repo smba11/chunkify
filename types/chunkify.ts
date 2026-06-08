@@ -35,7 +35,22 @@ export type SeedSearchCriteria = {
   startSeed: number;
   endSeed: number;
   maxResults: number;
-  tags: string[];
+  conditions: SeedSearchConditions;
+};
+
+export type WorkloadSize = "small" | "medium" | "heavy" | "extreme";
+
+export type SeedSearchConditions = {
+  biomes: string[];
+  structures: string[];
+  requirements: string[];
+  terms: string[];
+};
+
+export type AISeedParseResult = SeedSearchConditions & {
+  confidence: number;
+  summary: string;
+  workload: WorkloadSize;
 };
 
 export type SeedSearchMatch = {
@@ -43,6 +58,7 @@ export type SeedSearchMatch = {
   name: string;
   score: number;
   edition: Edition;
-  tags: string[];
+  features: string[];
+  conditions: SeedSearchConditions;
   description: string;
 };

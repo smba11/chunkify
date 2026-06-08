@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import { FinderClient } from "@/components/chunkify/finder-client";
 
 export const metadata: Metadata = {
-  title: "Seed Finder",
-  description: "Run advanced Minecraft seed searches locally in your browser."
+  title: "AI Seed Finder",
+  description: "Describe a Minecraft world and search matching seeds locally in your browser."
 };
 
 export default function FinderPage() {
   return (
     <main className="mx-auto min-h-screen max-w-7xl px-5 pb-20 pt-28 sm:px-8">
       <div className="mb-8 max-w-3xl">
-        <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-6xl">Finder</h1>
+        <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-6xl">AI Seed Finder</h1>
         <p className="mt-3 text-zinc-400">
-          Search natural language seed ideas using your own device. The Web Worker keeps the interface responsive while scanning.
+          Describe the world you want. Chunkify parses your prompt into search conditions and scans locally in a Web Worker.
         </p>
       </div>
       <FinderClient />
